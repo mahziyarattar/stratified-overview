@@ -1,0 +1,34 @@
+[build-system]
+requires = ["hatchling>=1.24"]
+build-backend = "hatchling.build"
+
+[project]
+name = "stratified-overview"
+version = "0.1.0"
+description = "Cheap corpus-level overviews for RAG via clustering and stratified chunk sampling."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "umap-learn>=0.5.5",
+    "tiktoken>=0.7",
+]
+
+[project.optional-dependencies]
+embed = ["sentence-transformers>=3.0"]
+llm = ["anthropic>=1.0", "openai>=1.40"]
+data = ["datasets>=2.19"]
+pilot = [
+    "sentence-transformers>=3.0",
+    "anthropic>=1.0",
+    "openai>=1.40",
+    "datasets>=2.19",
+]
+dev = ["pytest>=8.0"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/stratified_overview"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

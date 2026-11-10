@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.venv-bench/
+*.egg-info/
+.pytest_cache/
+dist/
+build/
+
+# Pilot artifacts: cached embeddings and generated reports
+.cache/
+pilot_output/
+
+# Local secrets
+.env
