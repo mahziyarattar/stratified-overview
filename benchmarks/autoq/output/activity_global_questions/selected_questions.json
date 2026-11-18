@@ -1,0 +1,652 @@
+[
+    {
+        "id": "b9676af0-4039-46fa-a5c7-20fd5ac715ba",
+        "text": "How do experts describe the societal impact of current trends?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A university professor developing a curriculum on contemporary media studies.",
+            "task": "Evaluate diverse perspectives on current global trends",
+            "reasoning": "This question helps the professor identify how different experts frame the impact of emerging trends, which is central to teaching media studies."
+        }
+    },
+    {
+        "id": "f2d84bca-dc89-4508-aa1f-12dfb368990a",
+        "text": "How do corporate news reports frame environmental responsibility?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "An environmental policy advocate researching public discourse on climate change.",
+            "task": "Analyze how corporate news frames environmental responsibility",
+            "reasoning": "This question helps the advocate identify how corporate news sources characterize environmental responsibility within their broader business reporting."
+        }
+    },
+    {
+        "id": "03b64d38-f834-404c-9885-61fe53113e6a",
+        "text": "What success factors do experts identify for sports-tech startups?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A venture capitalist evaluating early-stage startups in the sports-tech industry.",
+            "task": "Determine key success factors for sports-focused startups",
+            "reasoning": "This question helps identify recurring themes in sports-tech success by synthesizing expert commentary on industry trends and business models."
+        }
+    },
+    {
+        "id": "d8912eae-bdb8-4e14-ac39-cf9cd54beaa5",
+        "text": "How do commentators link professional sports to cultural identity?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A high school social studies teacher creating lesson plans on global issues.",
+            "task": "Analyze the intersection of sports and cultural identity",
+            "reasoning": "This question helps the teacher identify how the dataset links sports to broader cultural identity, which is central to their lesson planning."
+        }
+    },
+    {
+        "id": "e4adfa35-c46f-44a2-a36e-6504e8ca04e1",
+        "text": "How do experts explain complex technical concepts to readers?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A freelance writer specializing in technology and lifestyle trends.",
+            "task": "Determine how to synthesize complex tech news for readers",
+            "reasoning": "This question helps the writer understand how experts simplify complex technical topics for a general audience, which is essential for their task of synthesizing tech news."
+        }
+    },
+    {
+        "id": "0373b9be-09bd-46a1-a37a-81eb2ed49675",
+        "text": "What responsible gambling initiatives do experts suggest for local communities?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A public policy researcher studying the impact of betting on local communities.",
+            "task": "Analyze expert perspectives on responsible gambling initiatives",
+            "reasoning": "This question helps the researcher identify the specific frameworks or initiatives experts propose to mitigate the societal impacts of betting."
+        }
+    },
+    {
+        "id": "1644b75d-35b8-4243-8195-832e295b9b68",
+        "text": "What technical limitations do experts identify in current AI models?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A software engineer interested in the technical analysis of AI advancements.",
+            "task": "Understand the technical limitations of current AI models",
+            "reasoning": "This question helps the engineer identify the specific technical hurdles and constraints discussed by experts across the entire dataset."
+        }
+    },
+    {
+        "id": "7778d789-452f-4476-a004-52e6b7e375e6",
+        "text": "What corporate developments do experts link to market instability?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A financial consultant advising corporate clients on market shifts in the technology sector.",
+            "task": "Identify key corporate news trends affecting market stability",
+            "reasoning": "This question helps the consultant identify which corporate developments are perceived as significant drivers of market instability across the provided reports."
+        }
+    },
+    {
+        "id": "adf07a07-9a50-4833-bcd0-a04364d6d33c",
+        "text": "What business models do experts identify for gaming companies?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A technology journalist covering the gaming industry for a major digital publication.",
+            "task": "Understand the business models driving modern gaming companies",
+            "reasoning": "This question helps the journalist identify the core business strategies and revenue models discussed by experts across the entire dataset."
+        }
+    },
+    {
+        "id": "d6886ae4-4f6b-4401-a881-b3e8c0f8243c",
+        "text": "How do experts describe AI impacts on software engineering workflows?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A software engineer interested in the technical analysis of AI advancements.",
+            "task": "Determine the impact of AI advancements on software engineering",
+            "reasoning": "This question helps the engineer synthesize expert perspectives on how AI tools are fundamentally changing the software development lifecycle."
+        }
+    },
+    {
+        "id": "4abf5719-f826-45a1-bcac-8c729423f1bf",
+        "text": "How do sports analysts describe factors driving betting market volatility?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports betting analyst at a major sportsbook firm looking to refine predictive modeling strategies.",
+            "task": "Understand historical trends in sports betting market volatility",
+            "reasoning": "The analyst needs to understand how experts characterize market fluctuations to inform their predictive modeling strategies."
+        }
+    },
+    {
+        "id": "62894f4f-664f-4a04-a2e7-eb3cdbf7322e",
+        "text": "How do experts describe navigating regulatory challenges in their industries?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A corporate communications director managing brand reputation during industry shifts.",
+            "task": "Evaluate best practices for navigating regulatory discourse",
+            "reasoning": "This question helps the director understand how experts frame regulatory challenges across different sectors, providing a template for their own communication strategy."
+        }
+    },
+    {
+        "id": "1937f5e9-9687-4b58-8b20-4894383e2a23",
+        "text": "What themes do commentators link to environmental sustainability?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "An environmental policy advocate researching public discourse on climate change.",
+            "task": "Identify key themes in public debates regarding sustainability",
+            "reasoning": "This question helps the advocate understand how environmental issues are framed within the broader context of the dataset's cultural and corporate commentary."
+        }
+    },
+    {
+        "id": "0f458b1b-0c82-4774-bcae-6da65b52d995",
+        "text": "How do experts frame their arguments to influence public perception?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A university professor developing a curriculum on contemporary media studies.",
+            "task": "Analyze the role of expert opinion in shaping public perception",
+            "reasoning": "This question helps the professor understand how experts across different fields frame their arguments to influence public opinion."
+        }
+    },
+    {
+        "id": "cd7a400c-3df7-440b-bcae-7aed5927651d",
+        "text": "What risks do experts associate with long-term tech investments?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A financial consultant advising corporate clients on market shifts in the technology sector.",
+            "task": "Evaluate expert analysis on long-term tech investment strategies",
+            "reasoning": "This question helps the consultant identify the core investment risks and opportunities discussed by experts across the tech sector."
+        }
+    },
+    {
+        "id": "2c2baf76-4d35-445b-b21d-26b464dd308d",
+        "text": "What do industry experts predict for future gaming hardware trends?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A business development manager at a gaming hardware company.",
+            "task": "Analyze expert predictions for the gaming hardware market",
+            "reasoning": "This question helps the manager identify expert perspectives on the future of the gaming hardware market across the entire dataset."
+        }
+    },
+    {
+        "id": "32cd1606-a6b4-46a7-8fdb-a6f7c469c62f",
+        "text": "What trends do commentators identify as driving current audience engagement?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A marketing strategist for an entertainment company analyzing audience engagement.",
+            "task": "Determine how to leverage current trends for audience growth",
+            "reasoning": "This question helps the strategist identify which cultural and technological trends are currently resonating with audiences, allowing them to align marketing efforts with these broader interests."
+        }
+    },
+    {
+        "id": "eae745bb-9603-44e1-a740-7f5a48c524bc",
+        "text": "How do experts describe social interaction within gaming environments?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A freelance writer specializing in technology and lifestyle trends.",
+            "task": "Understand the intersection of gaming and social interaction",
+            "reasoning": "This question helps the writer identify how experts characterize the social dynamics within gaming, which is central to their task of exploring the intersection of gaming and social interaction."
+        }
+    },
+    {
+        "id": "9650958c-ed34-4a66-a036-b21afd0770ec",
+        "text": "What regulatory gaps do experts identify in tech and gaming?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A legal analyst focusing on the intersection of technology and regulation.",
+            "task": "Identify regulatory gaps in the gaming and tech sectors",
+            "reasoning": "This question helps the analyst identify where experts perceive current regulatory frameworks as insufficient or outdated within the tech and gaming sectors."
+        }
+    },
+    {
+        "id": "eb450fa4-8fd9-4192-bf4b-87242a3996d9",
+        "text": "How do cultural commentators describe media's influence on social norms?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sociology graduate student researching the impact of digital media on society.",
+            "task": "Analyze the role of pop culture in shaping social norms",
+            "reasoning": "This question helps the student identify how cultural commentators within the dataset perceive the influence of media on societal values."
+        }
+    },
+    {
+        "id": "5b36823b-0e53-4eea-94cb-a002e0c20d80",
+        "text": "What strategies do experts suggest for successful AI adoption?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A product manager at a software startup exploring AI integration opportunities.",
+            "task": "Evaluate expert insights on AI adoption best practices",
+            "reasoning": "This question helps the product manager identify the core challenges and recommended approaches for AI adoption as discussed by experts across the dataset."
+        }
+    },
+    {
+        "id": "ed0497fd-fbb4-46c9-b392-fa6c795eb078",
+        "text": "How do experts describe the future of sports entertainment?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports team executive looking to improve fan engagement strategies.",
+            "task": "Evaluate expert opinions on the future of sports entertainment",
+            "reasoning": "This question helps the executive understand how experts perceive the evolution of sports entertainment, which is crucial for developing long-term fan engagement strategies."
+        }
+    },
+    {
+        "id": "edda81c0-3522-48f7-8e05-0dd43266e2e6",
+        "text": "How do experts distinguish between temporary trends and lasting developments?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A librarian curating a collection of contemporary news and analysis.",
+            "task": "Evaluate the relevance of current trends for future archives",
+            "reasoning": "This question helps the librarian identify which topics are viewed as having long-term significance versus fleeting interest, which is essential for archival curation."
+        }
+    },
+    {
+        "id": "e8e9d60d-64cc-401a-af5a-267763ee5968",
+        "text": "How do experts describe digital media's role in information dissemination?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A university professor developing a curriculum on contemporary media studies.",
+            "task": "Determine the impact of digital media on information dissemination",
+            "reasoning": "This question helps the professor understand how experts perceive the role of digital platforms in shaping public discourse and information flow across the various sectors covered in the dataset."
+        }
+    },
+    {
+        "id": "cf5ff95e-9b1f-49ab-9e09-059473da7d2e",
+        "text": "What core themes do experts identify in contemporary news?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A librarian curating a collection of contemporary news and analysis.",
+            "task": "Identify essential topics for a modern news repository",
+            "reasoning": "This question helps the librarian identify the core thematic pillars present in the dataset to ensure the repository covers the most significant contemporary discourse."
+        }
+    },
+    {
+        "id": "34b33696-89e6-41cb-8e88-9c75a04aa5be",
+        "text": "How do industry experts describe corporate ethics in AI development?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "An AI ethics researcher at a policy think tank investigating the societal implications of new technologies.",
+            "task": "Analyze the intersection of AI development and corporate ethics",
+            "reasoning": "This question helps the researcher identify how corporate entities are portrayed in relation to AI ethics, which is central to their task of analyzing the intersection of technology and corporate responsibility."
+        }
+    },
+    {
+        "id": "aafd2bf1-b607-4e01-93fa-d1a820cc6956",
+        "text": "What variables do experts identify as influencing professional sports outcomes?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports betting analyst at a major sportsbook firm looking to refine predictive modeling strategies.",
+            "task": "Identify key variables influencing professional sports outcomes",
+            "reasoning": "This question helps the analyst identify which factors experts and commentators highlight as significant drivers of sports outcomes across the dataset."
+        }
+    },
+    {
+        "id": "917c8f8e-71e6-4259-9d9d-1551b3b99dc4",
+        "text": "How do experts link corporate news to gaming investment trends?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A business development manager at a gaming hardware company.",
+            "task": "Evaluate the impact of corporate news on gaming investments",
+            "reasoning": "This question helps the manager understand the broader relationship between corporate news and the gaming sector as described across the entire dataset."
+        }
+    },
+    {
+        "id": "cd21dd79-6698-48bc-aab0-60b75a7d2e12",
+        "text": "How do cultural commentators describe the impact of climate change?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "An environmental policy advocate researching public discourse on climate change.",
+            "task": "Determine the role of cultural commentary in environmental advocacy",
+            "reasoning": "This question helps the advocate understand how cultural commentators frame environmental issues, which is essential for identifying the role of cultural discourse in advocacy."
+        }
+    },
+    {
+        "id": "16a16b40-a0b5-4428-a214-958a41f21058",
+        "text": "How do sports analysts describe emerging athletic performance metrics?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports betting analyst at a major sportsbook firm looking to refine predictive modeling strategies.",
+            "task": "Evaluate expert consensus on emerging athletic performance metrics",
+            "reasoning": "This question helps the analyst identify how experts across the dataset characterize the reliability and utility of new data points in sports, which is essential for refining predictive models."
+        }
+    },
+    {
+        "id": "6d403b23-8b1a-42b5-8470-148532c3bfe8",
+        "text": "What societal risks do experts associate with AI integration?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "An AI ethics researcher at a policy think tank investigating the societal implications of new technologies.",
+            "task": "Identify public concerns regarding AI integration in daily life",
+            "reasoning": "This question helps the researcher identify the specific societal anxieties and ethical concerns mentioned across the diverse commentary in the dataset."
+        }
+    },
+    {
+        "id": "5ef06d43-3b4b-4b37-9ca3-a530f3c1e9df",
+        "text": "How do experts describe economic impacts on tech firms?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A financial consultant advising corporate clients on market shifts in the technology sector.",
+            "task": "Analyze the impact of global economic shifts on tech firms",
+            "reasoning": "This question helps the consultant identify how experts link broader economic or regulatory pressures to the operational strategies of tech firms."
+        }
+    },
+    {
+        "id": "d70297ea-1657-405f-b00c-c02c17bbe1eb",
+        "text": "What themes do commentators associate with negative corporate news?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A corporate communications director managing brand reputation during industry shifts.",
+            "task": "Identify common themes in negative corporate media coverage",
+            "reasoning": "This question helps the director identify recurring themes in negative media coverage across different sectors, which is essential for managing brand reputation during industry shifts."
+        }
+    },
+    {
+        "id": "a2bb141b-8041-463a-8567-23916c720ac4",
+        "text": "How do experts describe regulatory impacts on betting operations?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports betting analyst at a major sportsbook firm looking to refine predictive modeling strategies.",
+            "task": "Analyze the impact of regulatory changes on betting operations",
+            "reasoning": "This question helps the analyst understand how experts perceive the intersection of regulation and betting operations across the dataset."
+        }
+    },
+    {
+        "id": "f16caf59-ab61-4810-a371-78089b400df6",
+        "text": "How do experts describe the future of digital living?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A freelance writer specializing in technology and lifestyle trends.",
+            "task": "Analyze expert commentary on the future of digital living",
+            "reasoning": "This question helps the writer synthesize expert predictions regarding how digital advancements will shape daily life and lifestyle habits."
+        }
+    },
+    {
+        "id": "90d9c228-b4f3-4469-83d5-74d3b5e71b04",
+        "text": "How do experts describe the impact of global corporate news?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A high school social studies teacher creating lesson plans on global issues.",
+            "task": "Evaluate different expert viewpoints on global economic news",
+            "reasoning": "This question helps the teacher identify how different experts interpret the impact of corporate and financial news, which is essential for teaching students about diverse economic perspectives."
+        }
+    },
+    {
+        "id": "26c54bdb-a905-43db-bd0f-0268907753f5",
+        "text": "What factors do experts identify as drivers of tech growth?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A financial consultant advising corporate clients on market shifts in the technology sector.",
+            "task": "Determine the primary drivers of corporate growth in technology",
+            "reasoning": "This question helps identify the core factors experts associate with corporate expansion in the tech sector, which is central to the consultant's task."
+        }
+    },
+    {
+        "id": "a18d1fe3-3d7d-4d3a-8c0d-5b68477c0ca0",
+        "text": "How do commentators describe shifting patterns in global entertainment consumption?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A cultural critic writing a book on the evolution of modern pop culture.",
+            "task": "Identify shifting patterns in global entertainment consumption",
+            "reasoning": "This question helps the critic identify how experts perceive the changing ways audiences engage with entertainment, which is central to understanding shifting consumption patterns."
+        }
+    },
+    {
+        "id": "3f91b600-2fff-4d78-9a6d-5d099483e944",
+        "text": "What pitfalls do sports analysts identify in professional forecasting?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports betting analyst at a major sportsbook firm looking to refine predictive modeling strategies.",
+            "task": "Determine common pitfalls in professional sports forecasting",
+            "reasoning": "This question helps the analyst identify recurring errors or biases in sports forecasting mentioned by experts across the dataset."
+        }
+    },
+    {
+        "id": "31452934-c0bb-4c39-843c-7a77849cfcbd",
+        "text": "How do experts connect technology trends with cultural shifts?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A librarian curating a collection of contemporary news and analysis.",
+            "task": "Determine how to categorize complex interdisciplinary content",
+            "reasoning": "This question helps the librarian identify how experts bridge different fields, which is essential for creating effective cross-disciplinary categories."
+        }
+    },
+    {
+        "id": "d2188aef-7f70-45bf-b8f2-0eb3ec0836e1",
+        "text": "How do commentators link corporate actions to cultural trends?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A corporate communications director managing brand reputation during industry shifts.",
+            "task": "Analyze the impact of cultural commentary on brand perception",
+            "reasoning": "This question helps the director understand how cultural commentary shapes public perception of corporate entities, which is central to managing brand reputation."
+        }
+    },
+    {
+        "id": "789c8998-a43d-4456-9210-ed116e505ca0",
+        "text": "What market drivers do experts identify for the gaming sector?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A business development manager at a gaming hardware company.",
+            "task": "Identify key market drivers in the gaming sector",
+            "reasoning": "This question helps identify the broader market forces and consumer trends that influence the gaming industry as described across the diverse reports in the dataset."
+        }
+    },
+    {
+        "id": "2ca78784-e798-43e0-a430-18fc7a43b1b9",
+        "text": "How do experts describe challenges in environmental policy?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "An environmental policy advocate researching public discourse on climate change.",
+            "task": "Evaluate expert perspectives on climate-related policy challenges",
+            "reasoning": "This question helps the advocate identify how experts across different sectors frame the challenges associated with environmental policy."
+        }
+    },
+    {
+        "id": "36092837-609f-4bb4-8b6f-f15f9795c73a",
+        "text": "How do commentators describe the impact of betting on fandom?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A sports team executive looking to improve fan engagement strategies.",
+            "task": "Analyze the role of betting in modern sports fandom",
+            "reasoning": "This question helps the executive understand the broader cultural and professional perspective on how betting influences the way fans interact with sports."
+        }
+    },
+    {
+        "id": "0ed4f7b3-8ade-4f02-888c-32eb6ab3d163",
+        "text": "How do experts link gaming developments to broader tech innovation?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A technology journalist covering the gaming industry for a major digital publication.",
+            "task": "Determine the relationship between gaming and broader tech innovation",
+            "reasoning": "This question helps the journalist identify how experts connect gaming developments to wider technological progress, which is central to the task."
+        }
+    },
+    {
+        "id": "f2916585-ebb3-47fc-8cd0-378980ed7474",
+        "text": "How do commentators describe the cultural impact of gaming?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A technology journalist covering the gaming industry for a major digital publication.",
+            "task": "Analyze the cultural impact of recent gaming developments",
+            "reasoning": "This question helps the journalist synthesize how various commentators perceive the broader societal influence of gaming, which is central to analyzing its cultural impact."
+        }
+    },
+    {
+        "id": "1efee372-b47c-442f-b28c-ad992e2c426a",
+        "text": "How do experts justify their claims in news commentary?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A librarian curating a collection of contemporary news and analysis.",
+            "task": "Analyze the reliability of different types of news commentary",
+            "reasoning": "This question helps the librarian evaluate the credibility and evidence-based nature of the commentary provided by different types of contributors across the dataset."
+        }
+    },
+    {
+        "id": "d80f68cc-98fc-48de-ac20-a9f243089728",
+        "text": "How do experts describe the financial impact of AI advancements?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A financial consultant advising corporate clients on market shifts in the technology sector.",
+            "task": "Understand the financial implications of recent tech sector developments",
+            "reasoning": "This question helps the consultant identify how industry experts link technological advancements to broader financial outcomes for corporations."
+        }
+    },
+    {
+        "id": "d3a46583-7aa7-47f4-aac9-51d849f980b9",
+        "text": "What regulatory challenges do experts identify for AI software?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A product manager at a software startup exploring AI integration opportunities.",
+            "task": "Determine the competitive landscape for AI-integrated software",
+            "reasoning": "This question helps the product manager identify the primary regulatory and technical hurdles mentioned by experts, which is crucial for assessing the competitive landscape and potential barriers to entry."
+        }
+    },
+    {
+        "id": "1bf08b1a-bffb-4423-b837-dbed2b8930b5",
+        "text": "How do experts describe changes in modern news reporting?",
+        "question_type": "activity_global",
+        "references": [
+            "Dataset description: This dataset consists of a diverse collection of news articles, professional commentary, and analytical reports covering a wide range of contemporary interests. The content features perspectives from industry experts, sports analysts, and cultural commentators, providing a mix of high-level industry overviews, technical analysis, and personal narratives. Main topics include professional sports coverage and betting strategies, advancements and regulatory challenges in artificial intelligence, developments within the technology and gaming sectors, financial and corporate news, and cultural commentary on entertainment and environmental issues. This collection serves as a broad repository for inquiries regarding current trends in digital technology, the business of professional athletics, and shifting patterns in global pop culture and environmental discourse."
+        ],
+        "attributes": {
+            "persona": "A university professor developing a curriculum on contemporary media studies.",
+            "task": "Understand the evolution of news reporting in the digital age",
+            "reasoning": "This question helps the professor identify how different professional sectors are adapting their reporting styles to the digital landscape."
+        }
+    }
+]

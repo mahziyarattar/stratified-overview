@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from typing import Protocol
 
+from stratified_overview.llm import ChatClient, OpenRouterChatClient, RefusalError
 from stratified_overview.models import Overview, OverviewRequest
 from stratified_overview.tokens import ApproxTokenCounter, TokenCounter
 
@@ -35,7 +36,7 @@ Use only what the excerpts show. Do not mention groups or their numbers, and do 
 boilerplate, formatting or data quality. End with two sentences summarizing the whole database."""
 
 
-class OverviewRefusedError(RuntimeError):
+class OverviewRefusedError(RefusalError):
     """Raised when the model declines to write the overview."""
 
 
@@ -111,47 +112,23 @@ class OpenRouterOverviewGenerator:
         self,
         model: str = "anthropic/claude-haiku-5.5",
         max_tokens: int = 16_000,
-        api_key: str | None = None,
-        base_url: str | None = None,
+        client: ChatClient | None = None,
         prompt_builder: OverviewPromptBuilder | None = None,
     ) -> None:
-        import os
-
-        from openai import OpenAI
-
         self._model = model
         self._max_tokens = max_tokens
-        self._client = OpenAI(
-            api_key=api_key or os.environ["OPENROUTER_API_KEY"],
-            base_url=base_url or os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
-        )
+        self._client = client or OpenRouterChatClient(model)
         self._prompt_builder = prompt_builder or OverviewPromptBuilder()
 
     def generate(self, request: OverviewRequest) -> Overview:
-        response = self._client.chat.completions.create(
-            model=self._model,
-            max_tokens=self._max_tokens,
-            messages=[
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": self._prompt_builder.build(request)},
-            ],
-        )
-        choice = response.choices[0]
-        if choice.finish_reason == "content_filter":
-            raise OverviewRefusedError("model declined to write the overview")
-
-        text = choice.message.content or ""
-        if choice.finish_reason == "length":
-            text += "\n\n[truncated: hit max_tokens]"
-        usage = response.usage
-        input_tokens = usage.prompt_tokens if usage else 0
-        output_tokens = usage.completion_tokens if usage else 0
+        result = self._client.complete(SYSTEM_PROMPT, self._prompt_builder.build(request), self._max_tokens)
+        text = result.text + ("\n\n[truncated: hit max_tokens]" if result.truncated else "")
         return Overview(
             text=text,
-            model=response.model or self._model,
-            input_tokens=input_tokens,
-            output_tokens=output_tokens,
-            estimated_cost_usd=estimate_cost(self._model, input_tokens, output_tokens),
+            model=result.model,
+            input_tokens=result.input_tokens,
+            output_tokens=result.output_tokens,
+            estimated_cost_usd=estimate_cost(self._model, result.input_tokens, result.output_tokens),
         )
 
 

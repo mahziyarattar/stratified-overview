@@ -1,0 +1,122 @@
+Assertion generation enabled with validation (local min score: 3/5, global min 
+score: 3/5)
+Creating clustered sample from the input data...
+Generating questions for data_local...
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:22<02:35, 22.19s/it] 25%|██▌       | 2/8 [00:22<00:55,  9.33s/it] 50%|█████     | 4/8 [00:22<00:14,  3.56s/it] 62%|██████▎   | 5/8 [00:23<00:07,  2.58s/it] 75%|███████▌  | 6/8 [00:23<00:03,  1.89s/it] 88%|████████▊ | 7/8 [00:23<00:01,  1.45s/it]100%|██████████| 8/8 [00:24<00:00,  1.06s/it]100%|██████████| 8/8 [00:24<00:00,  3.01s/it]
+  0%|          | 0/8 [00:00<?, ?it/s] 12%|█▎        | 1/8 [00:19<02:13, 19.05s/it] 25%|██▌       | 2/8 [00:19<00:48,  8.06s/it] 38%|███▊      | 3/8 [00:19<00:22,  4.58s/it] 50%|█████     | 4/8 [00:21<00:13,  3.43s/it] 62%|██████▎   | 5/8 [00:23<00:08,  2.88s/it] 75%|███████▌  | 6/8 [00:25<00:05,  2.68s/it] 88%|████████▊ | 7/8 [00:27<00:02,  2.40s/it]100%|██████████| 8/8 [00:31<00:00,  3.02s/it]100%|██████████| 8/8 [00:31<00:00,  3.99s/it]
+  0%|          | 0/4 [00:00<?, ?it/s] 25%|██▌       | 1/4 [00:16<00:48, 16.23s/it] 50%|█████     | 2/4 [00:17<00:14,  7.22s/it] 75%|███████▌  | 3/4 [00:26<00:08,  8.25s/it]100%|██████████| 4/4 [00:27<00:00,  5.19s/it]100%|██████████| 4/4 [00:27<00:00,  6.78s/it]
+Generating assertions:   0%|          | 0/100 [00:00<?, ?question/s]Generating assertions:   1%|          | 1/100 [00:05<08:45,  5.31s/question]Generating assertions:   2%|▏         | 2/100 [00:06<04:46,  2.93s/question]Generating assertions:   4%|▍         | 4/100 [00:06<01:52,  1.17s/question]Generating assertions:   5%|▌         | 5/100 [00:08<01:54,  1.21s/question]Generating assertions:   6%|▌         | 6/100 [00:08<01:40,  1.07s/question]Generating assertions:   7%|▋         | 7/100 [00:09<01:16,  1.22question/s]Generating assertions:   8%|▊         | 8/100 [00:09<00:59,  1.54question/s]Generating assertions:   9%|▉         | 9/100 [00:09<00:55,  1.65question/s]Generating assertions:  10%|█         | 10/100 [00:11<01:24,  1.06question/s]Generating assertions:  11%|█         | 11/100 [00:12<01:25,  1.04question/s]Generating assertions:  12%|█▏        | 12/100 [00:13<01:18,  1.11question/s]Generating assertions:  14%|█▍        | 14/100 [00:14<01:01,  1.40question/s]Generating assertions:  15%|█▌        | 15/100 [00:14<00:51,  1.67question/s]Generating assertions:  16%|█▌        | 16/100 [00:16<01:21,  1.03question/s]Generating assertions:  18%|█▊        | 18/100 [00:17<01:07,  1.21question/s]Generating assertions:  19%|█▉        | 19/100 [00:18<01:05,  1.24question/s]Generating assertions:  20%|██        | 20/100 [00:19<00:58,  1.37question/s]Generating assertions:  21%|██        | 21/100 [00:19<00:53,  1.49question/s]Generating assertions:  22%|██▏       | 22/100 [00:19<00:43,  1.80question/s]Generating assertions:  23%|██▎       | 23/100 [00:20<00:36,  2.12question/s]Generating assertions:  24%|██▍       | 24/100 [00:20<00:36,  2.07question/s]Generating assertions:  25%|██▌       | 25/100 [00:21<00:47,  1.57question/s]Generating assertions:  26%|██▌       | 26/100 [00:21<00:38,  1.90question/s]Generating assertions:  27%|██▋       | 27/100 [00:23<00:54,  1.35question/s]Generating assertions:  28%|██▊       | 28/100 [00:23<00:48,  1.49question/s]Generating assertions:  29%|██▉       | 29/100 [00:24<00:49,  1.44question/s]Generating assertions:  31%|███       | 31/100 [00:24<00:29,  2.31question/s]Generating assertions:  32%|███▏      | 32/100 [00:26<00:47,  1.43question/s]Generating assertions:  34%|███▍      | 34/100 [00:27<00:44,  1.49question/s]Generating assertions:  35%|███▌      | 35/100 [00:27<00:37,  1.74question/s]Generating assertions:  36%|███▌      | 36/100 [00:27<00:31,  2.02question/s]Generating assertions:  37%|███▋      | 37/100 [00:28<00:39,  1.59question/s]Generating assertions:  38%|███▊      | 38/100 [00:29<00:45,  1.37question/s]Generating assertions:  39%|███▉      | 39/100 [00:30<00:36,  1.67question/s]Generating assertions:  40%|████      | 40/100 [00:30<00:38,  1.55question/s]Generating assertions:  41%|████      | 41/100 [00:31<00:35,  1.66question/s]Generating assertions:  42%|████▏     | 42/100 [00:32<00:33,  1.74question/s]Generating assertions:  43%|████▎     | 43/100 [00:32<00:27,  2.09question/s]Generating assertions:  44%|████▍     | 44/100 [00:32<00:23,  2.43question/s]Generating assertions:  45%|████▌     | 45/100 [00:34<00:40,  1.34question/s]Generating assertions:  46%|████▌     | 46/100 [00:35<00:48,  1.12question/s]Generating assertions:  47%|████▋     | 47/100 [00:36<00:49,  1.08question/s]Generating assertions:  48%|████▊     | 48/100 [00:37<00:53,  1.03s/question]Generating assertions:  49%|████▉     | 49/100 [00:38<00:44,  1.15question/s]Generating assertions:  51%|█████     | 51/100 [00:38<00:25,  1.90question/s]Generating assertions:  52%|█████▏    | 52/100 [00:38<00:21,  2.18question/s]Generating assertions:  53%|█████▎    | 53/100 [00:40<00:37,  1.25question/s]Generating assertions:  55%|█████▌    | 55/100 [00:42<00:37,  1.20question/s]Generating assertions:  56%|█████▌    | 56/100 [00:42<00:30,  1.43question/s]Generating assertions:  57%|█████▋    | 57/100 [00:42<00:25,  1.71question/s]Generating assertions:  58%|█████▊    | 58/100 [00:45<00:45,  1.10s/question]Generating assertions:  61%|██████    | 61/100 [00:46<00:26,  1.44question/s]Generating assertions:  63%|██████▎   | 63/100 [00:46<00:18,  1.99question/s]Generating assertions:  64%|██████▍   | 64/100 [00:48<00:32,  1.09question/s]Generating assertions:  66%|██████▌   | 66/100 [00:49<00:24,  1.39question/s]Generating assertions:  67%|██████▋   | 67/100 [00:49<00:20,  1.60question/s]Generating assertions:  68%|██████▊   | 68/100 [00:50<00:17,  1.85question/s]Generating assertions:  69%|██████▉   | 69/100 [00:50<00:14,  2.12question/s]Generating assertions:  70%|███████   | 70/100 [00:50<00:12,  2.41question/s]Generating assertions:  71%|███████   | 71/100 [00:53<00:26,  1.10question/s]Generating assertions:  72%|███████▏  | 72/100 [00:54<00:28,  1.00s/question]Generating assertions:  73%|███████▎  | 73/100 [00:54<00:21,  1.26question/s]Generating assertions:  74%|███████▍  | 74/100 [00:54<00:16,  1.58question/s]Generating assertions:  75%|███████▌  | 75/100 [00:55<00:13,  1.92question/s]Generating assertions:  76%|███████▌  | 76/100 [00:55<00:10,  2.27question/s]Generating assertions:  77%|███████▋  | 77/100 [00:56<00:12,  1.87question/s]Generating assertions:  78%|███████▊  | 78/100 [00:58<00:22,  1.05s/question]Generating assertions:  80%|████████  | 80/100 [00:59<00:17,  1.17question/s]Generating assertions:  81%|████████  | 81/100 [01:00<00:15,  1.21question/s]Generating assertions:  82%|████████▏ | 82/100 [01:01<00:15,  1.14question/s]Generating assertions:  83%|████████▎ | 83/100 [01:02<00:15,  1.10question/s]Generating assertions:  84%|████████▍ | 84/100 [01:03<00:14,  1.07question/s]Generating assertions:  86%|████████▌ | 86/100 [01:03<00:08,  1.59question/s]Generating assertions:  87%|████████▋ | 87/100 [01:04<00:07,  1.67question/s]Generating assertions:  88%|████████▊ | 88/100 [01:04<00:06,  1.96question/s]Generating assertions:  89%|████████▉ | 89/100 [01:06<00:08,  1.28question/s]Generating assertions:  90%|█████████ | 90/100 [01:06<00:07,  1.30question/s]Generating assertions:  91%|█████████ | 91/100 [01:07<00:07,  1.19question/s]Generating assertions:  92%|█████████▏| 92/100 [01:08<00:07,  1.12question/s]Generating assertions:  93%|█████████▎| 93/100 [01:09<00:04,  1.42question/s]Generating assertions:  94%|█████████▍| 94/100 [01:09<00:04,  1.43question/s]Generating assertions:  95%|█████████▌| 95/100 [01:10<00:03,  1.47question/s]Generating assertions:  96%|█████████▌| 96/100 [01:10<00:02,  1.77question/s]Generating assertions:  97%|█████████▋| 97/100 [01:11<00:01,  1.58question/s]Generating assertions:  98%|█████████▊| 98/100 [01:11<00:01,  1.85question/s]Generating assertions:  99%|█████████▉| 99/100 [01:21<00:03,  3.16s/question]Generating assertions: 100%|██████████| 100/100 [01:27<00:00,  4.01s/question]Generating assertions: 100%|██████████| 100/100 [01:27<00:00,  1.15question/s]
+┌───────────────────── Traceback (most recent call last) ─────────────────────┐
+│ C:\Users\ASUS\Desktop\Python                                                │
+│ Projects\stratified-overview\.venv-bench\Lib\site-packages\benchmark_qed\au │
+│ toq\cli.py:728 in autoq                                                     │
+│                                                                             │
+│    725 │   │   │   │   data_kwargs["type_balance_weight"] = (               │
+│    726 │   │   │   │   │   config.data_linked.type_balance_weight           │
+│    727 │   │   │   │   )                                                    │
+│ >  728 │   │   │   loop.run_until_complete(data_fn(**data_kwargs))          │
+│    729 │                                                                    │
+│    730 │   if print_model_usage:                                            │
+│    731 │   │   rich_print("Chat Model usage statistics:")                   │
+│                                                                             │
+│ C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\asyncio\base_even │
+│ ts.py:691 in run_until_complete                                             │
+│                                                                             │
+│    688 │   │   if not future.done():                                        │
+│    689 │   │   │   raise RuntimeError('Event loop stopped before Future     │
+│        completed.')                                                         │
+│    690 │   │                                                                │
+│ >  691 │   │   return future.result()                                       │
+│    692 │                                                                    │
+│    693 │   def stop(self):                                                  │
+│    694 │   │   """Stop running the event loop.                              │
+│                                                                             │
+│ C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\asyncio\futures.p │
+│ y:202 in result                                                             │
+│                                                                             │
+│   199 │   │   │   raise exceptions.InvalidStateError('Result is not         │
+│       ready.')                                                              │
+│   200 │   │   self.__log_traceback = False                                  │
+│   201 │   │   if self._exception is not None:                               │
+│ > 202 │   │   │   raise self._exception.with_traceback(self._exception_tb)  │
+│   203 │   │   return self._result                                           │
+│   204 │                                                                     │
+│   205 │   def exception(self):                                              │
+│                                                                             │
+│ C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\asyncio\tasks.py: │
+│ 314 in __step_run_and_handle_result                                         │
+│                                                                             │
+│    311 │   │   │   if exc is None:                                          │
+│    312 │   │   │   │   # We use the `send` method directly, because         │
+│        coroutines                                                           │
+│    313 │   │   │   │   # don't have `__iter__` and `__next__` methods.      │
+│ >  314 │   │   │   │   result = coro.send(None)                             │
+│    315 │   │   │   else:                                                    │
+│    316 │   │   │   │   result = coro.throw(exc)                             │
+│    317 │   │   except StopIteration as exc:                                 │
+│                                                                             │
+│ C:\Users\ASUS\Desktop\Python                                                │
+│ Projects\stratified-overview\.venv-bench\Lib\site-packages\benchmark_qed\au │
+│ toq\cli.py:111 in __generate_data_local                                     │
+│                                                                             │
+│    108 │                                                                    │
+│    109 │   # save both candidate questions and the final selected questions │
+│    110 │   data_local_storage =                                             │
+│        output_storage.child("data_local_questions")                         │
+│ >  111 │   await save_questions(                                            │
+│    112 │   │   data_local_question_results.selected_questions,              │
+│    113 │   │   data_local_storage,                                          │
+│    114 │   │   "selected_questions",                                        │
+│                                                                             │
+│ C:\Users\ASUS\Desktop\Python                                                │
+│ Projects\stratified-overview\.venv-bench\Lib\site-packages\benchmark_qed\au │
+│ toq\io\question.py:314 in save_questions                                    │
+│                                                                             │
+│   311 │                                                                     │
+│   312 │   # Save assertions separately if requested                         │
+│   313 │   if save_assertions:                                               │
+│ > 314 │   │   await _save_assertions(questions, storage)                    │
+│   315                                                                       │
+│                                                                             │
+│ C:\Users\ASUS\Desktop\Python                                                │
+│ Projects\stratified-overview\.venv-bench\Lib\site-packages\benchmark_qed\au │
+│ toq\io\question.py:246 in _save_assertions                                  │
+│                                                                             │
+│   243 │   │   )                                                             │
+│   244 │   │   with tempfile.NamedTemporaryFile(suffix=".json", delete=True) │
+│       as tmp:                                                               │
+│   245 │   │   │   tmp_path = Path(tmp.name)                                 │
+│ > 246 │   │   │   save_stats_to_file(stats, tmp_path)                       │
+│   247 │   │   │   await storage.set(                                        │
+│   248 │   │   │   │   "assertions_stats.json",                              │
+│       tmp_path.read_text(encoding="utf-8")                                  │
+│   249 │   │   │   )                                                         │
+│                                                                             │
+│ C:\Users\ASUS\Desktop\Python                                                │
+│ Projects\stratified-overview\.venv-bench\Lib\site-packages\benchmark_qed\au │
+│ toq\question_gen\data_questions\assertion_gen\stats.py:349 in               │
+│ save_stats_to_file                                                          │
+│                                                                             │
+│   346 │   output_path = Path(output_path)                                   │
+│   347 │   output_path.parent.mkdir(parents=True, exist_ok=True)             │
+│   348 │                                                                     │
+│ > 349 │   with output_path.open("w", encoding="utf-8") as f:                │
+│   350 │   │   json.dump(stats.to_dict(), f, indent=2)                       │
+│   351 │                                                                     │
+│   352 │   log.info("Saved assertion stats to %s", output_path)              │
+│                                                                             │
+│ C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013   │
+│ in open                                                                     │
+│                                                                             │
+│   1010 │   │   """                                                          │
+│   1011 │   │   if "b" not in mode:                                          │
+│   1012 │   │   │   encoding = io.text_encoding(encoding)                    │
+│ > 1013 │   │   return io.open(self, mode, buffering, encoding, errors,      │
+│        newline)                                                             │
+│   1014 │                                                                    │
+│   1015 │   def read_bytes(self):                                            │
+│   1016 │   │   """                                                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+PermissionError: [Errno 13] Permission denied: 
+'C:\\Users\\ASUS\\AppData\\Local\\Temp\\tmpfgor1ybi.json'
+exit 1

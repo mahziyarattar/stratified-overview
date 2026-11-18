@@ -14,6 +14,7 @@ from stratified_overview.budget import BudgetFitter
 from stratified_overview.clustering import ClusterCountEnforcer, HdbscanClusterer
 from stratified_overview.config import OverviewConfig
 from stratified_overview.embedding import Embedder, l2_normalize
+from stratified_overview.excerpts import ExcerptFormatter
 from stratified_overview.generation import OverviewGenerator
 from stratified_overview.models import (
     Chunk,
@@ -80,6 +81,7 @@ class CorpusOverviewPipeline:
         self._selection = selection
         self._quality_scorer = quality_scorer
         self._counter = token_counter or ApproxTokenCounter()
+        self._excerpts = ExcerptFormatter(self._counter, config.max_tokens_per_chunk)
 
     @classmethod
     def with_defaults(
@@ -127,7 +129,7 @@ class CorpusOverviewPipeline:
         noise = self._noise_handler.handle(clustering.labels, embeddings)
 
         # Budget what is actually sent: the truncated chunk plus its title header.
-        token_lengths = np.array([self._counter.count(self._excerpt(c)) for c in chunks])
+        token_lengths = np.array([self._excerpts.tokens(c) for c in chunks])
         fit = BudgetFitter(self._config).fit(noise.labels, embeddings, token_lengths, noise.misc_label)
         with _timed(timings, "quality"):
             quality = self._quality_scorer.score(fit.labels, embeddings) if self._quality_scorer else None
@@ -167,18 +169,11 @@ class CorpusOverviewPipeline:
                 label=cluster.label,
                 share_of_corpus=cluster.size / len(chunks),
                 is_misc=cluster.is_misc,
-                excerpts=tuple(self._excerpt(chunks[i]) for i in sample.chunk_indices),
+                excerpts=tuple(self._excerpts.format(chunks[i]) for i in sample.chunk_indices),
             )
             for cluster, sample in zip(clusters, samples, strict=True)
         )
         return OverviewRequest(total_chunks=len(chunks), sections=sections)
-
-    def _excerpt(self, chunk: Chunk) -> str:
-        """The chunk headed by its document title, truncated so both fit the per-chunk cap."""
-        title = chunk.metadata.get("title")
-        header = f"[{title}]\n" if title else ""
-        room = max(1, self._config.max_tokens_per_chunk - self._counter.count(header))
-        return header + self._counter.truncate(chunk.text, room)
 
 
 class _timed:

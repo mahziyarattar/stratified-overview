@@ -1,0 +1,64 @@
+You are a helpful assistant tasked with identifying relevant global questions from input questions sharing the same abstract category.
+
+--DEFINITION OF GLOBAL QUESTIONS--
+Global questions synthesize patterns across the dataset for a given abstract category. They connect related information from different parts of the data to reveal broader themes and relationships.
+Global questions are NOT about specific facts, entities, or events from individual documents.
+
+--INSTRUCTIONS--
+Given a list of input local questions, generate a list of global questions that target the entire dataset.
+
+Each global question MUST:
+- require synthesizing information from across the dataset;
+- be relevant to the abstract category shared by the input local questions;
+- be relevant to all the input local questions, not just a subset;
+- stay grounded in the specific topics reflected in the input questions - questions should clearly relate to the subject matter;
+- be SELF-CONTAINED: Do NOT use demonstratives like "these cases", "these reports", "this issue" without an explicit referent. The question must make sense on its own without needing to see what came before.
+    - BAD: "How do these cases show tensions between individual rights and public safety?"
+    - GOOD: "How do court cases in the dataset show tensions between individual rights and public safety?"
+- be ABSTRACT, SHORT, SIMPLE, and NATURAL-SOUNDING - like a question a curious human would ask:
+    - aim for 10-15 words
+    - ask only one thing at a time - no compound questions
+    - use simple, direct phrasing
+    - BAD (too long): "How do shifts in regulatory guidance reshape the practical boundaries of emergency pregnancy care under overlapping state restrictions and federal obligations?"
+    - GOOD: "How are changes in abortion regulations affecting access to emergency care?"
+    - BAD (too abstract): "What are the most important factors?"
+    - GOOD (grounded in topic): "What factors most influence vaccine hesitancy?"
+- assume the person asking only has a general sense of the dataset as context;
+- use VARIED question types - include a mix of who, what, where, when, how, which, and why questions. Examples:
+    - Who: "who are the key figures that discuss X" or "who are the people mentioned for X"
+    - What: "what themes emerge around X" or "what examples of X appear"
+    - How: "how is X portrayed" or "how do guests describe X"
+    - Why: "why do speakers emphasize X"
+    - Which: "which approaches to X are discussed"
+  Aim for variety - if generating multiple questions, distribute them across different question types.
+- INCLUDE LISTING/ENUMERATION QUESTIONS - questions that ask for multiple named entities, examples, or instances. These are valuable because they test comprehensive knowledge of the dataset. Examples:
+    - People: "Who are the key figures involved in X?"
+    - People: "Who are cited as experts or authorities on X?"
+    - Organizations: "Which companies or agencies are mentioned in relation to X?"
+    - Organizations: "What institutions are frequently referenced?"
+    - Places: "Which cities or regions are associated with X?"
+    - Events: "Which events or incidents are mentioned as significant?"
+  Aim for at least 1-3 listing questions per batch, including WHO questions about people when applicable.
+- **CRITICAL** - AVOID requiring any counting, sorting, frequency analysis, or any other complex mathematical or statistical operations.
+    - BANNED PHRASES (never use these): "most often", "most common", "most frequently", "least often", "how many", "frequency"
+    - BAD (explicit counting): "What is the frequency of X?" or "How many times is X mentioned?"
+    - BAD (implicit frequency): "Which X are most often mentioned?" or "What is the most common Y?"
+    - BAD (ranking by frequency): "Who is credited most for X?" or "What appears most frequently?"
+    - BAD: "Which investors, accelerators, and venture firms are most often credited for growth?"
+    - BAD: "Which schools and universities are most frequently linked to formative learning moments?"
+    - GOOD: "Which investors, accelerators, and venture firms are credited for startup growth?"
+    - GOOD: "Which schools and universities are linked to formative learning moments?"
+- AVOID requiring natural language processing or machine learning operations, e.g., sentiment analysis, keyword counting.
+
+The output question set should be distinct and diverse, avoiding repetitive questions.
+
+
+--OUTPUT--
+Use the following JSON object structure:
+
+{
+    "abstract_category": "The abstract category shared by the input questions.",
+    "questions": ["A list of global questions that requires a holistic understanding of the entire dataset, informed by the input local questions."]
+}
+
+Aims for ${num_questions} global questions.

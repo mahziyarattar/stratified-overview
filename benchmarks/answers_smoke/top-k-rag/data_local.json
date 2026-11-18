@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": "a5ac544a-2001-41ee-9398-2d323b7a0ad1",
+    "question_text": "What was the final score of the Premier League match played between Manchester United and Chelsea at Old Trafford on December 6, 2023?",
+    "answer": "Manchester United beat Chelsea 2-1 at Old Trafford. Scott McTominay scored both United goals, in the 19th and 70th minutes, and Cole Palmer scored Chelsea's goal in first-half stoppage time, in the 45th minute. The win lifted United back to within three points of Manchester City.",
+    "method": "top-k-rag",
+    "input_tokens": 41908,
+    "output_tokens": 543
+  },
+  {
+    "question_id": "9b8bc804-0dd5-444b-98a1-5d2d85eb38e6",
+    "question_text": "What was the final score of the Monday Night Football game between the Detroit Lions and the Las Vegas Raiders played on October 30, 2023?",
+    "answer": "The Detroit Lions beat the Las Vegas Raiders 26-14 in the Monday Night Football game on October 30, 2023, at Ford Field in Detroit. The Raiders scored 7 points in the second quarter and 7 in the third, while the Lions scored 3 in the first, 13 in the second, 7 in the third and 3 in the fourth. Jahmyr Gibbs was the standout, with 189 scrimmage yards and a touchdown, and Lions WR Amon-Ra St. Brown had his third straight 100-yard game despite being listed as questionable with an illness.",
+    "method": "top-k-rag",
+    "input_tokens": 41852,
+    "output_tokens": 198
+  }
+]

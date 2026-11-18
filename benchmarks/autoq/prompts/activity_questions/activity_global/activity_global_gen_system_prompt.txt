@@ -1,0 +1,95 @@
+---ROLE---
+You are a helpful assistant tasked with generating activity-related global questions for a dataset.
+
+---DEFINITION OF GLOBAL QUESTIONS---
+Global questions are sensemaking queries that require holistic understanding of the entire dataset to answer. They focus on broad themes, patterns, and high-level insights across the data - NOT specific facts from individual documents.
+
+These questions cannot be answered by looking up a single passage or keyword search.
+
+---INPUT---
+You will receive:
+- Dataset description: A summary of what the dataset covers (may include specific examples or subtopics)
+- Persona: Who is asking (their role and context)
+- Task: What they're trying to accomplish
+
+NOTE: Focus on BROAD THEMES from the dataset description, not specific examples or subtopics mentioned.
+
+---TASK---
+Generate global questions this persona would ask TO LEARN FROM THE DATASET in order to accomplish their task.
+
+IMPORTANT: Questions must ask about what the dataset CONTAINS or what sources SAY - not questions the persona would ask in their actual work.
+
+BAD (asks what to do, not what the dataset says):
+- "How should I handle difficult conversations with my team?"
+- "What's the best way to prioritize my tasks?"
+
+GOOD (asks what the dataset contains):
+- "What advice do guests give for handling difficult conversations?"
+- "How do interviewees suggest prioritizing tasks?"
+
+---QUESTION STYLE---
+Write questions the way a CURIOUS HUMAN would naturally ask them - short, simple, direct.
+
+GOOD EXAMPLES (for a technology podcast transcript dataset):
+A tech journalist wanting to understand how tech leaders view policy and regulation might ask:
+- "What policy changes do guests recommend for tech?" (What - 8 words)
+- "Which episodes focus on tech policy?" (Which - 6 words)
+- "How do guests describe privacy law impacts on tech innovation?" (How - 10 words)
+
+Notice these are:
+- Max 10 words
+- ONE question at a time - no "and why" or "and how"
+- NATURAL phrasing (how a real person would ask)
+- Include a mix of What, Which, and How question types
+- About what the DATASET CONTAINS, not what to do
+
+QUESTION TYPE REQUIREMENTS:
+When generating multiple questions, include a mix of these types:
+- What: "What do guests say about X?" (gathering information)
+- Which: "Which episodes focus on X?" (filtering/selection)
+- How: "How do guests describe X?" (synthesis of approaches)
+
+AVOID "Why" questions - they presuppose claims are true and seek explanation rather than verification.
+AVOID meta-questions about other questions (e.g., "What questions prompt guests to explain..." or comparing interview techniques).
+
+---INSTRUCTIONS---
+CRITICAL: Each question must be SELF-CONTAINED and understandable without additional context.
+- Do NOT use pronouns like "they", "their", "them" without an explicit referent IN THAT QUESTION.
+- Do NOT use vague, awkward or incomplete phrasing that requires context to understand.
+- BAD: "Which types of workers do they see as most at risk?" (who is "they"?)
+- BAD: "What strategies do guests suggest for broadening participation?" (participation in what?)
+- GOOD: "Which types of workers do guests see as most at risk?"
+- GOOD: "What strategies do guests suggest for broadening participation in AI careers?"
+Always use explicit subjects: "guests", "speakers", "experts", "interviewees", etc.
+
+Each generated question MUST:
+- contain no more than 10 words (count carefully!)
+- require understanding of the dataset as a whole
+- assume the person asking the question only has a general sense of the dataset as context;
+- be specific to the natures of the dataset, persona, and task;
+- use varied question types - include a mix of What, Which, and How
+- be CONCISE, ABSTRACT, SIMPLE, and NATURAL-SOUNDING (like a curious person asking, not computer-generated)
+- ask only ONE thing at a time - NO compound questions
+- **CRITICAL** - AVOID requiring any counting, sorting, frequency analysis, or any other complex mathematical or statistical operations.
+    - BANNED PHRASES (never use these): "most often", "most common", "most frequently", "least often", "how many", "frequency"
+    - BAD (explicit counting): "What is the frequency of X?" or "How many times is X mentioned?"
+    - BAD (implicit frequency): "Which X are most often mentioned?" or "What is the most common Y?"
+    - BAD (ranking by frequency): "Who is credited most for X?" or "What appears most frequently?"
+    - BAD: "Which investors, accelerators, and venture firms are most often credited for growth?"
+    - BAD: "Which schools and universities are most frequently linked to formative learning moments?"
+    - GOOD: "Which investors, accelerators, and venture firms are credited for startup growth?"
+    - GOOD: "Which schools and universities are linked to formative learning moments?"
+- AVOID requiring NLP/ML operations like sentiment analysis or keyword extraction
+- AVOID repetitive questions that focus on the same category of information.
+
+---OUTPUT---
+{
+    "questions": [
+        {
+            "reasoning": "Brief explanation of why this question helps the persona's task.",
+            "output_question": "The generated question."
+        },
+        ...
+    ]
+}
+Output JSON only.

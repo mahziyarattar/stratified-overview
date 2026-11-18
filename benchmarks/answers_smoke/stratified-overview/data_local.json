@@ -1,0 +1,18 @@
+[
+  {
+    "question_id": "a5ac544a-2001-41ee-9398-2d323b7a0ad1",
+    "question_text": "What was the final score of the Premier League match played between Manchester United and Chelsea at Old Trafford on December 6, 2023?",
+    "answer": "The database does not contain a result for a Manchester United vs. Chelsea match at Old Trafford on December 6, 2023, so I can't give a final score.\n\nThe material does cover Manchester United's 2023 season in other ways. It describes their exit from the Champions League after a defeat to Bayern Munich, the mounting pressure on manager Erik ten Hag, and a commentary that calls the club's season strange. It doesn't include any Premier League fixture against Chelsea.",
+    "method": "stratified-overview",
+    "input_tokens": 42731,
+    "output_tokens": 334
+  },
+  {
+    "question_id": "9b8bc804-0dd5-444b-98a1-5d2d85eb38e6",
+    "question_text": "What was the final score of the Monday Night Football game between the Detroit Lions and the Las Vegas Raiders played on October 30, 2023?",
+    "answer": "The database doesn't contain a final score for a Detroit Lions vs. Las Vegas Raiders game on October 30, 2023, or any Monday Night Football game that day.\n\nThe only related material is a Week 14 fantasy tight-end preview that lists T.J. Hockenson as playing at the Raiders. That places the matchup in Week 14, not on October 30. A separate NFL roundup says the Lions reached 9-3 for the first time since 1962, but it gives no opponent or score for that game.",
+    "method": "stratified-overview",
+    "input_tokens": 42736,
+    "output_tokens": 672
+  }
+]

@@ -1,0 +1,2360 @@
+[
+    {
+        "question_id": "fd501cbf-91ce-4565-9fa8-f3edafda44ee",
+        "question_text": "Which specific companies are highlighted as sites of significant workforce or leadership changes?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify companies that have implemented workforce reductions.",
+                "source_count": 5,
+                "score": 10,
+                "reasoning": "Workforce reduction is a primary category of change mentioned in the claims and directly answers the query regarding significant workforce changes.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify companies that have undergone leadership transitions.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "Leadership changes are explicitly requested by the query and represent a major theme in the provided claims.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention companies experiencing operational disruptions due to regional conflict.",
+                "source_count": 7,
+                "score": 8,
+                "reasoning": "Several claims highlight how geopolitical conflict has forced significant changes in workforce availability and operational capacity for specific companies.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention companies involved in professional sports management that have undergone personnel or structural changes.",
+                "source_count": 4,
+                "score": 5,
+                "reasoning": "These claims provide examples of workforce or management changes within the sports industry, which is a distinct category of the provided data.",
+                "rank": 4
+            }
+        ]
+    },
+    {
+        "question_id": "1376679d-e3ca-41b1-96d7-f0eea57b84a2",
+        "question_text": "What are the primary factors influencing the outcomes of the football games discussed?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that player availability and injuries are significant factors influencing game outcomes.",
+                "source_count": 12,
+                "score": 10,
+                "reasoning": "Player health and roster availability are consistently cited across multiple sports as a primary driver of performance and results.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that tactical and strategic coaching decisions influence game outcomes.",
+                "source_count": 7,
+                "score": 9,
+                "reasoning": "Coaching choices, such as aggressive play-calling or defensive adjustments, are identified as pivotal factors in securing victories.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that defensive performance metrics are critical factors in determining game results.",
+                "source_count": 6,
+                "score": 8,
+                "reasoning": "The ability of a team to execute defensively, including pressure and coverage, is a fundamental aspect of game success.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that team execution and offensive rhythm are essential for achieving positive outcomes.",
+                "source_count": 4,
+                "score": 8,
+                "reasoning": "Coaches frequently emphasize the importance of team cohesion and offensive flow as key determinants of success.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that shooting or scoring efficiency directly impacts the final score of games.",
+                "source_count": 4,
+                "score": 7,
+                "reasoning": "The ability to convert opportunities into points is a measurable factor that directly influences whether a team wins or loses.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that historical context and team form can influence the pressure and outcome of specific fixtures.",
+                "source_count": 3,
+                "score": 6,
+                "reasoning": "Contextual factors like recent performance and head-to-head history provide the backdrop for how teams approach specific matches.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should state that environmental conditions can influence game strategy.",
+                "source_count": 1,
+                "score": 5,
+                "reasoning": "External factors like weather are noted as variables that force teams to adjust their tactical approach.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "04705cda-6790-4929-853d-894b03b97210",
+        "question_text": "Which professional athletes are highlighted for their notable individual performances across different sports leagues?",
+        "map_assertions": [
+            {
+                "statement": "The response should highlight significant individual contributions by professional football players during recent games.",
+                "source_count": 7,
+                "score": 9,
+                "reasoning": "Several claims detail specific standout performances by football players, which is a core component of the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should note standout individual performances by basketball players in the NBL.",
+                "source_count": 8,
+                "score": 8,
+                "reasoning": "The claims include specific examples of basketball players' performances in the NBL, which is relevant to the query about different sports leagues.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention notable individual performances by professional soccer players in recent matches.",
+                "source_count": 6,
+                "score": 8,
+                "reasoning": "The claims highlight several soccer players' performances, which directly addresses the query about notable individual efforts in sports leagues.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should highlight notable individual performances by professional boxers in recent bouts.",
+                "source_count": 5,
+                "score": 8,
+                "reasoning": "Boxing is one of the sports leagues represented in the claims, and these performances are central to the query.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should identify professional football players recognized for their consistent production or specific roles within their teams.",
+                "source_count": 5,
+                "score": 7,
+                "reasoning": "These claims provide context on player roles and consistency, which are important aspects of individual performance evaluation.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "a0bd83ff-1391-41cd-9e7e-9910c7ab1017",
+        "question_text": "Which industries are represented by the professionals discussed in these career-related reports?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that the reports cover professionals in the technology industry.",
+                "source_count": 16,
+                "score": 10,
+                "reasoning": "Technology is a primary industry identified across multiple claims and is essential to the scope of the reports.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the professional boxing industry.",
+                "source_count": 9,
+                "score": 9,
+                "reasoning": "Professional boxing is a major industry identified in the claims as being represented by the individuals discussed.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the venture capital and finance industry.",
+                "source_count": 8,
+                "score": 9,
+                "reasoning": "Finance and venture capital are explicitly highlighted as key sectors represented by the professionals discussed.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the search engine optimization industry.",
+                "source_count": 4,
+                "score": 9,
+                "reasoning": "Search engine optimization is a primary field of involvement for the professionals discussed in a significant portion of the claims.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the cybersecurity industry.",
+                "source_count": 10,
+                "score": 8,
+                "reasoning": "Cybersecurity is identified as both a standalone industry and a specialized field within technology.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the freight, logistics, and transportation industry.",
+                "source_count": 7,
+                "score": 8,
+                "reasoning": "This industry is a distinct sector mentioned in the reports and is important for a complete answer.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the medical and healthcare technology industry.",
+                "source_count": 7,
+                "score": 8,
+                "reasoning": "Healthcare technology is a specific sector identified in the claims.",
+                "rank": 7
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the electric vehicle and battery technology industry.",
+                "source_count": 7,
+                "score": 8,
+                "reasoning": "This industry represents a significant portion of the specialized sectors mentioned in the reports.",
+                "rank": 8
+            },
+            {
+                "statement": "The response should mention that the reports cover professionals in the creator economy.",
+                "source_count": 7,
+                "score": 8,
+                "reasoning": "The creator economy is a distinct sector mentioned as being represented by the professionals in the reports.",
+                "rank": 9
+            }
+        ]
+    },
+    {
+        "question_id": "c3d73479-a067-4b35-ad47-19203a855014",
+        "question_text": "What technical specifications are prioritized when evaluating audio and computing devices?",
+        "map_assertions": [
+            {
+                "statement": "The response should indicate that computing device performance is assessed based on processor specifications.",
+                "source_count": 9,
+                "score": 10,
+                "reasoning": "Processing power is the most fundamental technical specification for evaluating the performance of computing devices.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that audio devices are evaluated based on noise cancellation capabilities.",
+                "source_count": 5,
+                "score": 9,
+                "reasoning": "Active noise cancellation is a primary technical specification for evaluating audio hardware, making it essential for a complete answer.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that storage capacity is a key metric for evaluating computing hardware.",
+                "source_count": 8,
+                "score": 8,
+                "reasoning": "Storage capacity directly impacts the utility and performance of computing devices.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that display quality is a prioritized specification for computing devices with screens.",
+                "source_count": 8,
+                "score": 8,
+                "reasoning": "Display technology and resolution are central to the user experience and evaluation of modern computing devices.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that battery life is a key factor when evaluating portable audio devices.",
+                "source_count": 4,
+                "score": 8,
+                "reasoning": "Battery performance is a critical usability metric for wireless audio devices.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that high-resolution content support is a priority for streaming hardware.",
+                "source_count": 7,
+                "score": 7,
+                "reasoning": "Support for advanced visual and audio standards is a defining technical specification for streaming devices.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should note that sound profile customization is a prioritized specification for audio equipment.",
+                "source_count": 5,
+                "score": 7,
+                "reasoning": "The ability to adjust or monitor sound quality is a significant technical consideration for audio device evaluation.",
+                "rank": 7
+            },
+            {
+                "statement": "The response should state that microphone quality is a prioritized feature for communication and smart devices.",
+                "source_count": 4,
+                "score": 6,
+                "reasoning": "Microphone performance is a key technical requirement for devices intended for voice interaction or gaming.",
+                "rank": 8
+            }
+        ]
+    },
+    {
+        "question_id": "b554b918-877a-4c05-b3a4-5867ca6515ca",
+        "question_text": "Which venues or arenas are identified as significant locations for major sporting competitions?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify major arenas in Las Vegas and Riyadh as significant locations for professional boxing matches.",
+                "source_count": 4,
+                "score": 9,
+                "reasoning": "These venues are highlighted as hosts for major boxing events, which is a key category of sporting competition mentioned in the claims.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Lambeau Field as a significant venue for professional football games.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Lambeau Field is specifically noted in the claims as a significant location for major sporting competitions.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should identify various arenas in Australia and New Zealand as venues for professional basketball matches.",
+                "source_count": 8,
+                "score": 8,
+                "reasoning": "The claims provide a comprehensive list of arenas used for professional basketball, which is essential for a complete answer.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should identify Old Trafford and Stamford Bridge as venues for professional football matches.",
+                "source_count": 5,
+                "score": 8,
+                "reasoning": "These stadiums are explicitly cited as significant venues for major league football, making them central to the query.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention Madison Square Garden as a notable venue for professional boxing.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Madison Square Garden is cited as a site for high-profile boxing matches, adding to the breadth of significant sporting locations.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention MetLife Stadium as a venue for professional football.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "MetLife Stadium is identified as a location for professional football, contributing to the list of significant sporting venues.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "44da9f00-c7be-4f1e-a8f3-31f6c69fdf02",
+        "question_text": "Which retail periods are associated with significant promotional activity for electronics?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify Black Friday as a key retail period for electronics promotions.",
+                "source_count": 9,
+                "score": 10,
+                "reasoning": "Black Friday is a primary shopping event mentioned across multiple claims as a major source of electronics deals.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Cyber Monday as a key retail period for electronics promotions.",
+                "source_count": 4,
+                "score": 10,
+                "reasoning": "Cyber Monday is explicitly linked to significant promotional activity for electronics in the provided claims.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should identify Amazon's fall sales events as significant periods for electronics discounts.",
+                "source_count": 6,
+                "score": 9,
+                "reasoning": "Amazon's Prime-related fall events are consistently highlighted as major opportunities for electronics savings.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that general holiday periods are associated with sales on electronics accessories.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Holiday seasons are noted as a recurring time for promotional activity specifically regarding electronics accessories.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that refurbished electronics are available at discounted prices throughout the year.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "This provides context that electronics discounts are not strictly limited to major sales events, offering a year-round alternative.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "d9e611e4-6df0-47f7-a1d3-7088a758357d",
+        "question_text": "Which key figures are identified as influential in the development or oversight of software systems?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify Sam Altman as a central figure in the development and commercialization of AI software.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "Sam Altman is a primary figure mentioned in the context of AI software development, making his inclusion essential for a complete answer.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Sam Bankman-Fried as a figure who directed the development of software systems used for financial operations.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "Bankman-Fried is a key figure in the oversight and development of specific financial software systems mentioned in the claims.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that Gary Wang is recognized for his role in developing and overseeing specific software code within financial systems.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Wang's role as a developer of specific, impactful code makes him a central figure in the context of software oversight.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that Elon Musk and Steve Wozniak are influential figures who have publicly advocated for pauses in large-scale AI development.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "These individuals are identified as influential figures who have shaped the discourse and oversight of AI development.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that Matt Cutts was a significant figure in managing search quality and communicating guidelines for search engine software.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "Cutts is a prominent figure in the history of search engine software oversight and public policy.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should identify Danny Sullivan as a figure who serves as a public liaison for search engine software.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Sullivan's role as a public liaison is relevant to the oversight and public perception of search engine systems.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should acknowledge Joseph Weizenbaum as a historical figure who contributed to the development of early conversational software.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "Weizenbaum provides important historical context regarding the origins of human-AI interaction systems.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "e9578ad7-394d-4d2a-8a85-04ea9261cc59",
+        "question_text": "How do institutional governance failures impact public trust in technology and financial platforms?",
+        "map_assertions": [
+            {
+                "statement": "The response should explain that institutional governance failures often lead to a decline in public trust due to the misappropriation of user assets.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "This is a core mechanism by which governance failures directly erode user confidence in financial platforms. It is essential for answering the query regarding the impact of such failures.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that lack of transparency in internal operations can deceive the public about a platform's financial stability.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "Transparency is a key component of governance; its absence is a primary driver of distrust. This highlights the link between internal management and public perception.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that unequal governance structures, such as granting special privileges to certain entities, undermine the integrity of financial platforms.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This explains how structural unfairness within an organization contributes to the erosion of trust. It provides a specific example of how governance failures manifest.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that public trust is often damaged when platforms prioritize corporate financial interests over the public interest.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This addresses the broader philosophical conflict between corporate governance and public trust, which is central to the query.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that governance failures at technology platforms can lead to community backlash and user migration.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "This illustrates the behavioral consequences of governance failures in the technology sector, showing how trust issues manifest in user actions.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should explain that strategic efforts to build a positive public persona can be used to mask systemic governance failures.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This highlights the deceptive nature of some governance failures, where external trust-building is used to hide internal rot.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should state that inconsistent enforcement of platform rules contributes to a perception that online information is unreliable.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This connects governance (rule enforcement) to the quality of information, which is a major factor in public trust regarding technology platforms.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "a7c34a5d-88af-4479-b42d-00c2392b9f3a",
+        "question_text": "What types of software products and digital services are highlighted across the dataset?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify video games as a significant category of software products highlighted in the dataset.",
+                "source_count": 10,
+                "score": 10,
+                "reasoning": "Video games are extensively covered in the dataset and represent a major software category.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention generative artificial intelligence tools as a category of software products.",
+                "source_count": 6,
+                "score": 10,
+                "reasoning": "Generative AI is a primary focus of the dataset and essential to answering the query about software types.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should acknowledge search engines as a key type of digital service.",
+                "source_count": 4,
+                "score": 9,
+                "reasoning": "Search engines are identified as dominant digital services within the provided claims.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention financial technology platforms as a category of digital services.",
+                "source_count": 6,
+                "score": 8,
+                "reasoning": "Fintech and trading platforms are explicitly mentioned as significant digital services in the dataset.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should note the presence of ecosystem-specific digital services provided by hardware manufacturers.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "The dataset highlights various services integrated into hardware ecosystems, which is a distinct category of digital service.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should identify social media platforms as a type of digital service used for content distribution.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Social media is explicitly categorized as a digital service within the context of SEO and content sharing.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "5666f4f0-1d80-4e19-b8f0-b3ae6cc14a75",
+        "question_text": "What career milestones define the professional trajectories of the individuals mentioned in the dataset?",
+        "map_assertions": [
+            {
+                "statement": "The response should note that some athletes have achieved championship titles or reached significant competitive milestones in their careers.",
+                "source_count": 6,
+                "score": 8,
+                "reasoning": "This covers the career milestones relevant to the athletes mentioned in the dataset.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that several individuals transitioned from corporate or academic roles into entrepreneurship.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This captures a common professional trajectory theme found across multiple claims regarding founders.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that some individuals have held leadership roles across multiple organizations or industries.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This highlights the career milestone of executive mobility between different companies.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that some professionals have moved between independent observer roles and corporate positions.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This reflects a specific career trajectory milestone involving the shift from journalism or industry observation to corporate liaison roles.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that some individuals have experienced significant career pivots into entirely different sectors.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This addresses the milestone of changing professional focus due to industry evolution.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should state that some individuals have leveraged their background in venture capital to launch or manage new business ventures.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This highlights the milestone of moving from investment roles to operational leadership.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should mention that some professionals have faced significant personal or legal challenges that impacted their career trajectories.",
+                "source_count": 3,
+                "score": 6,
+                "reasoning": "This acknowledges that external or personal factors are milestones that define professional paths.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "9391ef1d-2db8-46a8-9100-a60113e99a8d",
+        "question_text": "What unique mechanical systems do these tabletop games use to track player progress?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that Home tracks character progress using tarot cards and a whiteboard.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This directly addresses the query regarding unique mechanical systems for tracking progress in specific tabletop games.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should explain that Project ECCO tracks progress by physically altering a planner over time.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This identifies a unique physical tracking method used in the game, which is central to the user's query.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that The Wildsea uses a dice pool system with success bands to determine outcomes.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This describes the mechanical system used for resolving actions and progress in the game.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that Desperation uses a card-driven mechanic to assign context to character actions.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This explains the unique card-based system used to influence character development and action resolution.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that Fetch My Blade uses a three-dice system to resolve encounters and track progress.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This highlights the specific dice-based resolution mechanic used in the game.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should explain that Exquisite Biome uses generative prompts paired with playing cards to track narrative development.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This describes the unique combination of prompts and cards used to track the game's progression.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should note that Twilight: 2000 utilizes randomized tables for character generation.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This identifies the mechanical system used for character creation and progression in the game.",
+                "rank": 7
+            },
+            {
+                "statement": "The response should state that The Quiet Year uses drawing on paper to track the game's progress.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "This highlights the visual and collaborative tracking method used in the game.",
+                "rank": 8
+            }
+        ]
+    },
+    {
+        "question_id": "a44f65c0-e383-4d56-86a8-5a515d74c82a",
+        "question_text": "Who are the primary manufacturers mentioned in relation to portable computing and audio hardware?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify Apple as a manufacturer of portable computing and audio hardware.",
+                "source_count": 13,
+                "score": 10,
+                "reasoning": "Apple is a central entity mentioned across multiple claims regarding both computing and audio hardware.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Sony as a manufacturer of portable and gaming audio hardware.",
+                "source_count": 6,
+                "score": 10,
+                "reasoning": "Sony is explicitly highlighted as a primary manufacturer for both audio categories in the provided claims.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should identify Bose as a manufacturer of portable audio hardware.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Bose is consistently cited as a primary manufacturer of portable audio devices.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should identify Amazon as a manufacturer of portable computing and audio hardware.",
+                "source_count": 4,
+                "score": 8,
+                "reasoning": "Amazon is noted for producing both computing and audio hardware products.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should identify Anker as a manufacturer of portable audio hardware.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Anker is identified as a primary manufacturer of portable audio equipment.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should identify Samsung as a manufacturer of portable computing and display hardware.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Samsung is mentioned as a manufacturer of portable computing and display-related hardware.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should identify Shokz as a manufacturer of portable audio hardware.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "Shokz is specifically mentioned as a manufacturer of portable audio hardware.",
+                "rank": 7
+            },
+            {
+                "statement": "The response should identify HyperX as a manufacturer of portable gaming audio hardware.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "HyperX is identified as a manufacturer of gaming-specific audio hardware.",
+                "rank": 8
+            },
+            {
+                "statement": "The response should identify Logitech as a manufacturer of portable gaming audio hardware.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "Logitech is identified as a manufacturer of gaming-specific audio hardware.",
+                "rank": 9
+            },
+            {
+                "statement": "The response should identify Beats as a brand associated with audio hardware.",
+                "source_count": 2,
+                "score": 5,
+                "reasoning": "Beats is mentioned as a relevant brand in the context of audio hardware.",
+                "rank": 10
+            },
+            {
+                "statement": "The response should identify Hyper as a manufacturer of peripherals for Apple devices.",
+                "source_count": 1,
+                "score": 5,
+                "reasoning": "Hyper is mentioned as a manufacturer of accessories specifically for Apple computing hardware.",
+                "rank": 11
+            }
+        ]
+    },
+    {
+        "question_id": "936e0727-c130-4301-a0ba-1961fd2c7d8a",
+        "question_text": "How do homesteading practices demonstrate alternatives to fossil fuel dependency?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that homesteading can involve minimizing reliance on modern utility infrastructure.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This directly addresses how homesteading practices reduce fossil fuel dependency by bypassing conventional energy and water systems. It is essential for explaining the 'how' of the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should explain that homesteading can involve local food production to reduce dependency on industrial supply chains.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "Food production is a core homesteading practice that mitigates the need for fossil-fuel-intensive industrial agriculture and transportation.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that homesteading can involve choosing low-carbon transportation methods.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "Transportation choices are a significant factor in fossil fuel consumption, and this highlights how homesteaders actively reduce their carbon footprint.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that homesteading can involve adopting alternative economic models to reduce reliance on capitalist systems.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Economic independence is a key aspect of the homesteading lifestyle that seeks to decouple from systems heavily reliant on fossil fuels.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should explain that homesteading can prioritize community-based sharing of resources over individual consumption.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This highlights the social aspect of 'post-petrol' living, which emphasizes human relationships over the convenience-driven, high-energy consumption of modern life.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that the concept of energy democracy advocates for local control of renewable energy systems.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "This provides a broader context for how small-scale, local energy solutions serve as an alternative to centralized fossil fuel infrastructure.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "c9124f47-f631-4438-a211-bc2ae1d08d9f",
+        "question_text": "Which organizations and government entities are involved in the development and regulation of ChatGPT?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify OpenAI as the primary developer of ChatGPT.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "Identifying the primary developer is fundamental to answering who is involved in the development of the technology.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention Microsoft's role as a key partner in the development and integration of ChatGPT technology.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Microsoft's significant financial and technical partnership is central to the development and deployment ecosystem of ChatGPT.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that the U.S. Federal Trade Commission has investigated OpenAI regarding consumer protection concerns.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This highlights the role of government entities in regulating and overseeing the practices of the primary developer.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that some national governments have implemented restrictions on the use of ChatGPT due to data privacy concerns.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Governmental restrictions are a key aspect of the regulatory landscape surrounding the tool.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that European policymakers have mandated security assessments for generative AI systems.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This illustrates the proactive regulatory approach taken by international governing bodies.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should note that various organizations have initiated legal action against OpenAI regarding the use of copyrighted materials.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "Legal challenges from external organizations represent a significant form of oversight and regulation regarding training data.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should state that legislative bodies have restricted the use of ChatGPT by their staff due to data security concerns.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "Internal policy decisions by government entities reflect the regulatory caution surrounding the technology.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "83614f78-26a1-4fad-b79c-23ac36cb4f61",
+        "question_text": "How do major media events and product releases shape public engagement within the entertainment industry?",
+        "map_assertions": [
+            {
+                "statement": "The response should note that celebrity relationships and personal associations can significantly drive engagement across different media industries.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This illustrates the powerful influence of celebrity personal lives on consumer behavior and media viewership.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that post-launch updates and expansions can evolve content to reshape public perception of a product.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This explains how long-term product support can alter the trajectory of public engagement after an initial release.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that surprise announcements are used to generate interest and re-engage audiences with established intellectual properties.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This identifies the strategic use of unexpected reveals as a tool for maintaining audience connection to existing brands.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that significant financial investment can be used to facilitate high-profile events that were previously difficult to organize.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This explains how capital infusion can overcome industry-specific barriers to create major engagement-driving events.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that media coverage of celebrity personal lives creates a complex environment that influences how artists interact with their audience.",
+                "source_count": 3,
+                "score": 6,
+                "reasoning": "This addresses the impact of media scrutiny on the relationship between public figures and their fanbases.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that expert analysis and media coverage help shape public anticipation for major events.",
+                "source_count": 3,
+                "score": 6,
+                "reasoning": "This identifies the role of media commentary in framing and building interest for upcoming entertainment or sporting events.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "c3ad50e2-4602-4c6c-a9f8-1e802d9c640e",
+        "question_text": "Who are the key coaches or team management figures involved in the reported roster changes?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify Justin Schueller as a coach managing roster availability due to suspensions and injuries for the Brisbane Bullets.",
+                "source_count": 5,
+                "score": 9,
+                "reasoning": "This identifies a coach managing roster constraints caused by external factors.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Mody Maor as a coach managing roster changes and player replacements for the Breakers.",
+                "source_count": 4,
+                "score": 9,
+                "reasoning": "This identifies a coach directly involved in roster management and personnel adjustments.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should identify Erik ten Hag as a manager involved in team selection decisions for Manchester United.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This identifies a key management figure mentioned in the claims as responsible for roster-related decisions.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should identify Mauricio Pochettino as a manager involved in team selection decisions for Chelsea.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This identifies a key management figure mentioned in the claims as responsible for roster-related decisions.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should identify Dan Campbell as a head coach involved in strategic decisions for the Detroit Lions.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This identifies a key management figure mentioned in the claims as responsible for strategic decisions affecting team performance.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should identify Mike Kelly as a coach overseeing roster adjustments and player returns for South East Melbourne Phoenix.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This identifies a coach managing roster composition and player health.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should identify Josh McDaniels as a head coach whose decision-making for the Las Vegas Raiders is influenced by player injury status.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This identifies a key management figure whose roster-related decisions are linked to player health.",
+                "rank": 7
+            },
+            {
+                "statement": "The response should identify CJ Bruton as a coach who adjusted team rotation strategies to improve performance for the Adelaide 36ers.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This identifies a coach making tactical roster management decisions.",
+                "rank": 8
+            },
+            {
+                "statement": "The response should identify Al Haymon as a key advisor involved in the professional representation of boxers.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This identifies a management figure in the boxing context who influences athlete career and roster-like decisions.",
+                "rank": 9
+            },
+            {
+                "statement": "The response should identify Eddie Hearn as a promoter involved in the management of professional boxers.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This identifies a management figure who plays a role in the career and team-related decisions of athletes.",
+                "rank": 10
+            }
+        ]
+    },
+    {
+        "question_id": "69aeff1d-7e11-4f05-b0f6-67854b00149c",
+        "question_text": "How do recent free agent contracts influence the financial landscape of professional baseball?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that record-breaking contract offers for top-tier free agents are influencing the broader market.",
+                "source_count": 5,
+                "score": 9,
+                "reasoning": "This addresses the primary driver of the current financial landscape in baseball as described in the claims.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should explain that high-profile free agency decisions can cause a market-wide delay in team roster moves.",
+                "source_count": 4,
+                "score": 8,
+                "reasoning": "This explains the systemic impact of individual free agent negotiations on the behavior of other teams.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that teams may need to trade existing high-value players to accommodate the payroll requirements of signing top-tier talent.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This highlights the internal financial management strategies teams use to balance their budgets when pursuing expensive free agents.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that teams continue to invest significant capital in international talent to improve their rosters.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "This provides context on how teams diversify their financial investments beyond domestic free agents.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should acknowledge that teams are actively investing in veteran depth to address specific roster needs.",
+                "source_count": 2,
+                "score": 5,
+                "reasoning": "This illustrates that the financial landscape is not solely defined by record-breaking contracts but also by ongoing investment in veteran players.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "fd16d971-5119-49a5-a5f6-895193638767",
+        "question_text": "How do sports organizations communicate information regarding player health and injury status to the public?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that sports organizations release official injury reports to update the public on player availability.",
+                "source_count": 1,
+                "score": 10,
+                "reasoning": "Official injury reports are a primary mechanism for communication, making this essential information for the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that team representatives and coaches provide injury updates to the media.",
+                "source_count": 7,
+                "score": 9,
+                "reasoning": "Direct communication from team personnel is a key channel for disseminating health information to the public.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should explain that teams use standardized status designations to categorize a player's ability to participate.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "Understanding how teams classify player availability is a core component of how they communicate injury status.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that medical or coaching staff provide context regarding the nature of a player's injury.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Contextualizing injuries helps the public understand the severity and recovery process, which is a significant part of the communication process.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that team representatives may communicate uncertainty about an injury prognosis when medical assessments are ongoing.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "Acknowledging that information is sometimes limited or pending further assessment is a realistic aspect of sports injury reporting.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should state that injury information is sometimes shared to explain team performance outcomes.",
+                "source_count": 4,
+                "score": 5,
+                "reasoning": "This highlights that injury communication is often tied to broader narratives about team success or failure.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should mention that public disclosures may include details about the specific circumstances surrounding an injury.",
+                "source_count": 4,
+                "score": 5,
+                "reasoning": "Providing details on how or when an injury occurred is a common practice in sports media communication.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "9ea1920b-e4c5-4783-be2c-3e95abd602cc",
+        "question_text": "Which types of wagers are available to participants in regulated sports betting markets?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that participants can place wagers on the outright winner of a game.",
+                "source_count": 5,
+                "score": 10,
+                "reasoning": "This identifies a fundamental type of sports wager, which is essential for answering the query about available betting options.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that bettors can wager on the margin of victory or loss for a game.",
+                "source_count": 5,
+                "score": 9,
+                "reasoning": "Point spread betting is a core component of regulated sports markets and is a primary way participants engage with games.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should explain that wagers can be placed on the combined total score of both teams.",
+                "source_count": 5,
+                "score": 9,
+                "reasoning": "Totals or over/under betting is a standard market offering that is distinct from picking a winner or a margin.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that participants can place wagers on specific statistical outcomes within a game.",
+                "source_count": 7,
+                "score": 8,
+                "reasoning": "Prop bets represent a significant category of wagers that focus on granular game details rather than the final outcome.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that wagers can be placed on events occurring in the future.",
+                "source_count": 5,
+                "score": 8,
+                "reasoning": "Futures betting is a distinct market category that allows participants to bet on long-term outcomes.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that participants can place wagers while a game is currently in progress.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "Live or in-game betting is a major feature of modern regulated sports betting markets.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should note that participants can combine multiple individual wagers into a single bet.",
+                "source_count": 5,
+                "score": 7,
+                "reasoning": "Parlays and teasers are common betting structures that allow participants to link multiple outcomes for potentially higher payouts.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "3a502ed2-c66b-4f5c-ab68-54d4592ffb0b",
+        "question_text": "Who are the key figures identified in the governance and oversight of major technology and financial organizations?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that Sam Bankman-Fried was the primary figure responsible for the governance of FTX and Alameda Research.",
+                "source_count": 4,
+                "score": 10,
+                "reasoning": "Sam Bankman-Fried's role is critical to understanding the governance and oversight failures of these financial organizations.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Sam Altman as a central figure in the governance of OpenAI.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "Sam Altman's role as CEO is central to the governance structure of OpenAI described in the claims.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should identify Dan Clancy as the leader of Twitch.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Identifying the CEO of Twitch is essential for answering the query regarding governance figures in major tech organizations.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that the OpenAI board of directors holds authority over executive leadership decisions.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "The board's power to fire and reinstate the CEO is a key aspect of organizational governance.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should identify Caroline Ellison as a key executive involved in the management of Alameda Research.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Ellison's role as CEO of Alameda Research is a significant part of the governance structure described in the claims.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that Gary Wang held technical oversight responsibilities within FTX and Alameda Research.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Wang's role in technical governance is a key insight into how oversight was managed within these financial entities.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should mention that external figures like Elon Musk and Steve Wozniak have influenced the oversight debate regarding AI development.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "These figures represent external oversight pressure on major technology organizations, which is relevant to the query.",
+                "rank": 7
+            },
+            {
+                "statement": "The response should identify Marc Benioff as the leader of Salesforce.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Identifying the founder and CEO of Salesforce provides relevant information about governance in a major tech organization.",
+                "rank": 8
+            }
+        ]
+    },
+    {
+        "question_id": "b199084d-e4aa-45e6-a16c-afffee74f1ab",
+        "question_text": "How do the 2023 films represent diverse genres like action, drama, and thriller?",
+        "map_assertions": [
+            {
+                "statement": "The response should state that 2023 drama films explored diverse thematic content ranging from personal stories to historical examinations.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This highlights the thematic breadth of the drama genre in 2023.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that 2023 action films utilized techniques like practical stunt work and choreographed combat.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This explains the stylistic approach of the action genre in 2023, which is central to the query.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that 2023 thriller films employed varied narrative structures like procedurals and subversions of established tropes.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This describes how the thriller genre was represented through specific narrative techniques.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that 2023 horror films focused on themes like psychological dread and human drama.",
+                "source_count": 4,
+                "score": 7,
+                "reasoning": "This provides insight into the thematic focus of the horror genre in 2023.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that some 2023 films incorporated elements from multiple genres.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This addresses the trend of genre-blending, which provides a more complete picture of the 2023 film landscape.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "de41c994-82d2-4b58-8937-ce923de92287",
+        "question_text": "How do major technology corporations influence the evolution of search and digital platforms?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that major technology corporations are integrating generative AI into their search and product ecosystems.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "This explains the current technological shift in how platforms are evolving through AI integration, which is central to the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should address that dominant search entities act as non-neutral arbiters of information that shape public perception.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This captures the broader societal impact of these corporations on the digital information ecosystem.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that the financial incentives of large corporations can create conflicts between profit-driven goals and user needs.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This addresses the underlying corporate motivations that shape how these platforms operate and evolve.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that search platforms have shifted toward prioritizing institutional authority over crowdsourced content.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This explains the qualitative change in how information is curated and presented to users by dominant platforms.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should explain that search engines influence the digital landscape by updating algorithms to counter search engine optimization tactics.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This highlights the ongoing cycle of adaptation between platform providers and the broader digital industry.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should note that advertising-funded models inherently introduce bias into search results.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This identifies a fundamental structural influence on the evolution of search platforms since their inception.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "ef9e2086-82f3-42cd-86d5-0955fa7ce145",
+        "question_text": "What types of product specifications are highlighted in retail marketing materials?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that marketing materials highlight technical performance specifications.",
+                "source_count": 6,
+                "score": 10,
+                "reasoning": "Technical performance is a primary category of product specifications used in retail marketing, making it essential for a complete answer.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that marketing materials highlight physical design and build specifications.",
+                "source_count": 6,
+                "score": 9,
+                "reasoning": "Physical attributes are a core component of how products are marketed to consumers, representing a major category of specifications.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that marketing materials highlight audio and visual quality specifications.",
+                "source_count": 6,
+                "score": 8,
+                "reasoning": "Audio and visual capabilities are significant selling points for many consumer electronics, which are frequently featured in marketing.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that marketing materials highlight functional capabilities and smart features.",
+                "source_count": 5,
+                "score": 8,
+                "reasoning": "Modern retail marketing often emphasizes the smart or automated features of products to differentiate them in the market.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that marketing materials highlight product versatility and usage specifications.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "Explaining how and where a product can be used is a common marketing strategy to help consumers understand the product's utility.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "0aaaf8f1-5e98-42af-a9f7-cc8dc40d1433",
+        "question_text": "How do external economic or industry factors influence employment trends in the mentioned sectors?",
+        "map_assertions": [
+            {
+                "statement": "The response should explain that geopolitical conflict can disrupt labor availability by requiring employees to serve in military reserves.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "This illustrates how external political and military events directly affect the workforce capacity of an industry.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should note that infrastructure damage and safety concerns during conflicts can prevent employees from performing their work.",
+                "source_count": 4,
+                "score": 9,
+                "reasoning": "This explains how physical and environmental factors resulting from conflict impact employment continuity.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that slow economic growth and high capital costs can lead companies to reduce their workforce.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This addresses how macroeconomic conditions directly influence corporate hiring and downsizing decisions.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that industry-specific downturns can cause companies to cease operations and eliminate all jobs.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This highlights the impact of sector-specific economic crises on employment stability.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that the pursuit of profit and business viability can drive companies to prioritize cost-cutting measures over workforce retention.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This explains the internal economic pressure that leads to layoffs as a strategy for financial stability.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that shifts in market demand can cause professionals to transition their career focus toward related fields.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This describes how changing industry dynamics influence individual career paths and employment trends.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should note that a lack of market traction or declining stock value can lead to company closures and staff layoffs.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This highlights how financial performance and investor confidence are external factors that dictate employment outcomes.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "347d107e-2cfe-4323-a079-3aa90444f9e0",
+        "question_text": "What mechanisms are used to enforce compliance with safety and privacy guidelines in the digital economy?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that government authorities use security assessments to regulate emerging technologies.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This highlights a proactive regulatory mechanism used by policymakers to ensure safety in the digital economy.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that legal systems enforce compliance through the imposition of sanctions.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This identifies a punitive mechanism used by the judiciary to address misuse of digital tools.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that search engines use algorithmic updates to penalize sites that violate quality guidelines.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This illustrates a technical enforcement mechanism used by dominant digital platforms to maintain standards.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that government agencies conduct investigations into potential violations of consumer protection laws.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This describes an oversight mechanism where regulatory bodies hold digital entities accountable for data privacy and security failures.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that platforms implement internal guardrails to moderate user-generated content.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This explains how private companies attempt to self-regulate through technical features, even if enforcement is inconsistent.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that enforcement of digital guidelines is often hindered by the difficulty of distinguishing between legitimate and prohibited practices.",
+                "source_count": 3,
+                "score": 6,
+                "reasoning": "This provides critical context regarding the challenges and limitations inherent in enforcing digital compliance.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "16dd42f2-f8fd-491f-ac4f-89c51936d635",
+        "question_text": "What are the primary challenges faced by developers and organizations when scaling software platforms?",
+        "map_assertions": [
+            {
+                "statement": "The response should address that organizations face legal and regulatory risks when scaling their platforms.",
+                "source_count": 4,
+                "score": 8,
+                "reasoning": "Legal compliance is a major hurdle for growing organizations, representing a significant non-technical challenge.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that internal organizational instability can hinder the scaling of technology platforms.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "Leadership and personnel changes directly impact the strategic direction and operational capacity of a scaling organization.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should address that managing sudden surges in user demand is a challenge for maintaining system stability.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Handling high traffic volume is a core operational challenge that often forces companies to make difficult service trade-offs.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that regional conflicts and geopolitical instability can disrupt the operations of tech companies.",
+                "source_count": 7,
+                "score": 6,
+                "reasoning": "Geopolitical factors represent significant external risks that can impede business continuity and the ability to scale operations.",
+                "rank": 4
+            }
+        ]
+    },
+    {
+        "question_id": "77d7da8f-76e9-4561-805d-49ae82dbacf6",
+        "question_text": "Which specific incidents illustrate the tension between rapid platform growth and established ethical governance?",
+        "map_assertions": [
+            {
+                "statement": "The response should explain that FTX engaged in deceptive financial practices to maintain an appearance of stability while misusing customer assets.",
+                "source_count": 6,
+                "score": 10,
+                "reasoning": "The FTX collapse is a definitive case study of how rapid growth can mask systemic ethical failures and fraudulent governance.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that OpenAI faced regulatory scrutiny and investigations due to data privacy and consumer protection concerns.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This illustrates how rapid AI development often outpaces established legal and ethical frameworks, leading to direct conflict with regulators.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that platforms like Twitch and Kick have struggled with moderation challenges that conflict with their rapid growth.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "These platforms serve as primary examples of the tension between scaling a user base and maintaining a safe, ethical environment.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that AI models have been criticized for failing to enforce safety guardrails regarding the spread of misinformation.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This reflects the ethical tension between deploying powerful new technologies and the responsibility to prevent societal harm.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that the transition of industry critics into corporate roles can create perceptions of compromised ethical oversight.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "This highlights the conflict of interest that arises when the boundary between industry regulation and corporate employment becomes blurred.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "673cf4aa-e4a9-4a9f-9117-84ad6565d2ce",
+        "question_text": "What strategies do professional teams use to recruit and secure top-tier talent?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that teams use high-level meetings involving key personnel to personally recruit talent.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "Personal recruitment by key staff is a primary strategy identified in the claims for securing top talent. This is essential for a complete answer.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that teams trade existing players to create payroll flexibility for new signings.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "Managing financial resources through roster adjustments is a key strategic component of talent acquisition. This is a high-priority factor in professional sports management.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that teams offer significant financial incentives to attract elite talent.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Financial compensation is a fundamental tool for securing top-tier players. It is a core aspect of the recruitment process.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that teams conduct multiple meetings across various locations to build relationships with prospective players.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "Relationship building through repeated, multi-location contact is a noted strategy for persuading free agents. This adds depth to the recruitment process description.",
+                "rank": 4
+            }
+        ]
+    },
+    {
+        "question_id": "2f38dfa8-da2a-4a05-a5b3-f098af5027eb",
+        "question_text": "What role do transparency standards play in maintaining the integrity of digital marketplaces and streaming services?",
+        "map_assertions": [
+            {
+                "statement": "The response should state that hidden financial privileges or deceptive accounting practices can compromise the fundamental integrity of a digital marketplace.",
+                "source_count": 5,
+                "score": 10,
+                "reasoning": "This is a critical example of how a lack of transparency leads to systemic failure and fraud in marketplaces.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that platforms may use opaque financial structures to conceal losses from stakeholders.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This explains the mechanism by which transparency failures are used to manipulate financial reporting.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should explain that a lack of transparent eligibility criteria can negatively impact community trust and purpose.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This highlights the psychological and community-level impact of opaque standards in digital platforms.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that deceptive practices like backdating transactions can undermine the accuracy of financial disclosures.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This highlights how active deception further erodes the integrity of digital marketplaces beyond simple lack of disclosure.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that inconsistent monetization policies can lead to user migration toward competing platforms.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This illustrates the competitive risk associated with failing to maintain transparent financial policies.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should note that opaque algorithmic processes can lead to exploitation by users and subsequent disillusionment with the platform.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This addresses the technical integrity of search and discovery systems when transparency is absent.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "9e85cbb6-6b4e-4c60-acfe-4adf85c807cf",
+        "question_text": "How do economic shifts and leadership changes impact the operational stability of established tech firms?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that economic shifts like rising capital costs often force tech firms to implement workforce reductions.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This addresses the direct link between macroeconomic conditions and operational changes in tech firms.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should note that leadership changes are sometimes used as a strategic response to address financial instability.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This explains the functional role of leadership changes in correcting operational failures.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that tech firms often struggle to balance monetization strategies with community sentiment.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This illustrates how external stakeholder relationships impact the operational stability of tech platforms.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that external crises, such as regional conflicts, can cause significant operational instability by impacting the workforce.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This provides an example of how external environmental factors beyond market conditions affect operational continuity.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should explain that leadership transitions can introduce operational uncertainty within a company.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This highlights the internal instability caused by management changes, which is a core part of the query.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that large-scale tech firms may experience shifts in priorities toward profit that conflict with original operational goals.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This explains how organizational growth and financial pressure can destabilize a firm's core mission.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should mention that leadership controversies can lead to reputational damage that necessitates strategic management appointments.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "This highlights how the public perception of leadership impacts the stability and trust of a tech firm.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "976083f0-aa3b-4170-83d7-a412531acee7",
+        "question_text": "What roles do early professional experiences play in the long-term career paths of these individuals?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that early professional experiences can provide foundational knowledge that remains relevant throughout a career.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This highlights a key role of early experience in building long-term expertise, which is central to the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that early professional roles can be leveraged to secure resources or funding for future business ventures.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This illustrates how past professional status or networks directly facilitate entrepreneurial success.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that early career setbacks or challenges can significantly impact an individual's long-term trajectory.",
+                "source_count": 5,
+                "score": 8,
+                "reasoning": "This acknowledges that early experiences are not always positive and can create obstacles that must be overcome.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should explain that early career experiences can help individuals identify market gaps or industry needs.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This demonstrates how professional background informs the strategic direction of future business endeavors.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should explain that early professional experiences can provide a holistic understanding of an industry that informs future leadership roles.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This highlights the value of broad industry knowledge gained early on for long-term career management.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that early career patterns or successes can influence an individual's decision to pivot to different industries later.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This addresses how the evolution of an industry can cause professionals to shift their career focus based on their early experiences.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "77eba5be-3933-4e45-a0e3-4274de8bfc90",
+        "question_text": "What types of supplemental materials or tools are used to organize these game worlds?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that physical objects like cards and stationery are used to organize game worlds.",
+                "source_count": 5,
+                "score": 9,
+                "reasoning": "This identifies the primary physical tools used for organization, which is central to the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that visual aids like whiteboards are used to track game progress.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This highlights a specific method for tracking narrative and character development.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that structured documents like tables and flowcharts are used to manage game content.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This addresses the use of organizational documentation for game masters.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that digital tools are available to assist with game preparation.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This acknowledges the role of technology in organizing and preparing game worlds.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that supplemental publications like gazetteers or sourcebooks are used to expand game settings.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This covers the use of formal setting materials to provide depth and organization to a campaign.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "9e35b856-27a6-4d31-b47f-01614de13b7a",
+        "question_text": "Who are the key figures or experts advocating for significant reductions in carbon footprints?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify Peter Kalmus as a climate scientist who advocates for significant climate action.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "Identifying key figures is central to the query, and Kalmus is a primary example provided in the claims.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Ethan Hughes and Sarah Wilcox-Hughes as figures who model a low-carbon lifestyle through their homestead.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "They are key figures mentioned in the claims who demonstrate a specific approach to carbon reduction.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that Peter Kalmus has implemented substantial personal lifestyle changes to reduce his carbon footprint.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This explains the 'how' behind his advocacy, which is a core component of the provided information.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should identify Holly Jean Buck as an expert who advocates for systemic energy transitions.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Buck represents a different, more systemic approach to carbon reduction compared to the individual lifestyle focus of the other figures.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that the Possibility Alliance community focuses on living without modern conveniences to minimize environmental impact.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This provides context on the methods used by the Hughes family to achieve their low-carbon goals.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "f80d7dae-0ab3-41c1-9ea5-43d853bf8e86",
+        "question_text": "How do public concerns and corporate decisions shape the trajectory of generative AI adoption?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that public concerns regarding societal risks have triggered regulatory interventions.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "This addresses how public sentiment directly influences the legal and regulatory environment for AI, which is a core part of the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should note that integrating AI into consumer products has accelerated mainstream adoption.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "This explains the mechanism by which corporate decisions translate into widespread user adoption.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that significant financial backing from technology companies drives the continued development of AI.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This explains the corporate side of the trajectory, highlighting that investment acts as a counterweight to regulatory and public pushback.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that internal corporate governance issues can create uncertainty regarding the future direction of AI development.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This highlights how internal organizational stability is a factor in the trajectory of AI development.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that influential figures in the industry have publicly advocated for pauses in AI experimentation due to safety concerns.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This highlights the role of expert discourse in shaping the public and corporate narrative around AI safety.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "f2bb6e6d-2068-4427-88f1-27cc025c34ae",
+        "question_text": "How do internal corporate policies influence the accountability of executives during periods of crisis?",
+        "map_assertions": [
+            {
+                "statement": "The response should explain that executives can manipulate internal accounting practices to obscure financial health during a crisis.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This illustrates how internal policies or practices can be subverted to avoid accountability, which is a critical aspect of the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that opaque internal credit policies can allow executives to bypass standard risk controls.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This explains how structural policy gaps facilitate the evasion of accountability by leadership.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that executives may use internal communication policies to coordinate sensitive activities and avoid oversight.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This demonstrates how communication protocols can be used to shield executive actions from scrutiny during a crisis.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that executives may use their authority over internal decision-making processes to influence the handling of company assets during a crisis.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This shows how executive power can be leveraged to manipulate crisis outcomes, impacting accountability.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should acknowledge that leadership may respond to external stakeholder feedback by adjusting internal policies.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This provides a contrasting perspective on how policies are used to improve accountability and relationships with stakeholders.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "50267dbf-7ef3-40c5-9d24-1d48f19853ca",
+        "question_text": "How do injuries impact the roster decisions and player availability for professional sports teams?",
+        "map_assertions": [
+            {
+                "statement": "The response should explain that injuries force teams to frequently alter their starting lineups and roster configurations.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "This is a core impact of injuries on professional sports teams, directly addressing the query about roster decisions.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that teams often rely on bench depth or reserve players to maintain performance when primary players are injured.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This explains the operational response teams take to mitigate the loss of key personnel.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should note that teams may sign replacement players to compensate for long-term injuries.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Signing replacements is a significant roster decision made in response to injury-related personnel gaps.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should explain that teams must implement return-to-play protocols, such as minutes restrictions, for athletes recovering from long-term injuries.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "Managing the return of injured players is a critical aspect of roster and performance management.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that coaches may shorten player rotations to maintain execution during periods of high injury.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "Shortening rotations is a specific coaching strategy used to manage the impact of limited player availability.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should state that injuries can negatively affect team chemistry and overall momentum.",
+                "source_count": 2,
+                "score": 5,
+                "reasoning": "Beyond physical roster changes, the psychological and collaborative impact of injuries is a relevant factor in team performance.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "583fbc8a-2be3-47c0-9f42-3d13ae5e3066",
+        "question_text": "What criteria do reviewers use to identify budget-friendly technology options?",
+        "map_assertions": [
+            {
+                "statement": "The response should state that reviewers evaluate the balance between performance and price to identify budget-friendly technology.",
+                "source_count": 4,
+                "score": 10,
+                "reasoning": "This is the primary criterion mentioned across multiple claims for determining value in technology products.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should note that reviewers consider the longevity and continued relevance of older models as a budget-friendly strategy.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Older hardware that remains capable for daily tasks is a significant factor in determining long-term value.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that reviewers use the availability of discounts or refurbished options to determine if a product is a good deal.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Market-based pricing strategies like sales and refurbished programs are key indicators of budget-friendliness.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that reviewers compare functionality across a product lineup to identify the most cost-effective options.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "Comparative analysis within a brand's ecosystem helps reviewers distinguish between different tiers of budget devices.",
+                "rank": 4
+            }
+        ]
+    },
+    {
+        "question_id": "16f8133e-988c-4a5a-9006-7ee59de3454c",
+        "question_text": "What ethical responsibilities do corporate leaders hold when managing user data and financial assets?",
+        "map_assertions": [
+            {
+                "statement": "The response should state that corporate leaders have an ethical duty to maintain the integrity of customer funds.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "This is a core ethical responsibility regarding financial assets mentioned in the claims. It is essential for answering the query about managing financial assets.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that corporate leaders have an ethical obligation to keep customer assets separate from company trading activities.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This addresses the specific ethical practice of asset segregation, which is a critical component of managing financial assets responsibly.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that corporate leaders are ethically required to provide accurate financial reporting to stakeholders.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Accurate reporting is a fundamental ethical responsibility for leaders managing financial assets to prevent misleading investors and lenders.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that corporate leaders have an ethical responsibility to protect user data from unauthorized access or leaks.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Protecting user data is a primary ethical responsibility for leaders managing digital information, as highlighted by regulatory scrutiny.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that corporate leaders have an ethical responsibility to be transparent with their boards of directors.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "Candid communication with oversight bodies is a key ethical requirement for corporate leadership and governance.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should state that corporate leaders have an ethical responsibility to prevent the misuse of user assets for unauthorized purposes.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This addresses the ethical concern regarding the diversion of customer funds for political or personal gain.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "ee93d933-accb-4765-b550-d443f8ebe55e",
+        "question_text": "What business strategies contribute to the commercial success of major music industry figures?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that re-recording music catalogues is a strategy to regain control over intellectual property rights.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "This explains a fundamental business strategy for artists to reclaim ownership of their work, which is central to the query about commercial success.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should explain that integrating live performance experiences with commercial ventures drives significant revenue.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This highlights the synergy between artistic output and large-scale commercial operations as a key driver of financial success.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should state that releasing concert films serves as a strategic method to monetize live performances beyond the venue.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This identifies the expansion of content distribution as a successful business tactic for music industry figures.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that high-profile personal associations can generate significant commercial impact for an artist's brand.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This addresses the role of public visibility and external partnerships in driving consumer behavior and brand value.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should explain that using subtle promotional cues helps maintain fan engagement for future product releases.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This highlights the importance of marketing tactics that foster long-term consumer anticipation and loyalty.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "dcbaa169-a667-4fbf-896f-8798f5e3f9f6",
+        "question_text": "Which technological features are integrated into sports betting applications to enhance the user experience for basketball fans?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that some platforms provide live streaming of games directly within the betting application.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "Live streaming is a primary technological feature that directly enhances the user experience for basketball fans by allowing them to watch games while betting.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that applications allow users to combine multiple wagers on a single game into one bet.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "The ability to create personalized, multi-part bets for a single game is a key feature for basketball bettors.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that platforms offer live betting features where odds update in real-time as the game progresses.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "In-game betting is a fundamental technological capability that allows users to engage with the game as it unfolds.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should state that some betting platforms allow users to access casino games through the same account.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Platform integration between sports betting and other gaming services is a notable feature that impacts the overall user experience.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that loyalty programs are integrated into betting apps to reward users for their activity.",
+                "source_count": 1,
+                "score": 6,
+                "reasoning": "Reward programs are a common technological feature used to incentivize and retain users within the betting ecosystem.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should note that mobile accessibility and user-friendly interfaces are standard features for modern sports betting applications.",
+                "source_count": 1,
+                "score": 5,
+                "reasoning": "While foundational, the accessibility of these platforms across various devices is a key aspect of the user experience.",
+                "rank": 6
+            }
+        ]
+    },
+    {
+        "question_id": "4f1f12ed-63d6-42ef-b253-46f44a0d1e45",
+        "question_text": "How do public figures navigate the intersection of personal relationships and professional performance?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that public figures manage media scrutiny by choosing to remain open about their personal connections rather than hiding them.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "This addresses the strategy of transparency as a way to navigate public interest in personal relationships, which is central to the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that maintaining composure is a key strategy for public figures when dealing with intense media attention.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This highlights the psychological approach required to balance professional life with the pressures of public scrutiny.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should explain that public figures maintain professional standards through rigorous preparation routines.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This illustrates how professional performance is protected through discipline, regardless of external personal factors.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that public figures prioritize professional commitments to their audience over personal circumstances.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "This demonstrates the prioritization of professional duty as a method for navigating the intersection of personal and public life.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that public figures continue to engage in normal social activities despite the presence of media attention.",
+                "source_count": 2,
+                "score": 6,
+                "reasoning": "This explains how individuals maintain a sense of normalcy in their personal lives while under public observation.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "06b922b2-62d8-4ce5-a72b-b2e322299816",
+        "question_text": "What regulatory requirements govern user registration at legal online sportsbooks?",
+        "map_assertions": [
+            {
+                "statement": "The response should state that users must provide personal identification details to register for an account.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "Providing personal information is a fundamental regulatory requirement for account creation. This is essential for verifying user identity.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that users are required to agree to the platform's terms and conditions during registration.",
+                "source_count": 3,
+                "score": 9,
+                "reasoning": "Accepting terms and conditions is a standard legal requirement for establishing a contract between the user and the sportsbook.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should clarify that physical presence within a specific jurisdiction is required to place wagers.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "This distinguishes between the ability to register for an account and the legal requirement for placing bets, which is a critical regulatory distinction.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that regulated platforms must follow standards for data security and user protection.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "This explains the broader regulatory environment that governs how user information is handled by legal sportsbooks.",
+                "rank": 4
+            }
+        ]
+    },
+    {
+        "question_id": "838b123e-cdbd-4de0-9ea6-eacd381f0e19",
+        "question_text": "Which professional athletes are mentioned in the dataset as having sustained significant physical injuries?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify the professional basketball players mentioned in the dataset as having sustained physical injuries.",
+                "source_count": 9,
+                "score": 10,
+                "reasoning": "The dataset includes several basketball players from various leagues, and identifying them is necessary to fully address the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should categorize the athletes by their respective sports or leagues to provide a structured overview of the injured players.",
+                "source_count": 15,
+                "score": 8,
+                "reasoning": "Organizing the athletes by sport helps the user navigate the large number of entities mentioned in the claims.",
+                "rank": 2
+            }
+        ]
+    },
+    {
+        "question_id": "fe8ca627-bd26-477b-bb94-724c0cc4336a",
+        "question_text": "Which specific tabletop role-playing games are featured in the dataset?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify the specific tabletop role-playing games contained within the dataset.",
+                "source_count": 10,
+                "score": 10,
+                "reasoning": "The query specifically asks for the games featured in the dataset, making the identification of these titles the primary requirement for a complete answer.",
+                "rank": 1
+            }
+        ]
+    },
+    {
+        "question_id": "39122ff5-fe97-44bd-b74b-beec84d10454",
+        "question_text": "Which broadcasting networks or platforms are responsible for airing the featured sporting events?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify the broadcasting platforms for the Manchester United versus Chelsea match.",
+                "source_count": 2,
+                "score": 10,
+                "reasoning": "This is a primary sporting event mentioned in the claims, and identifying its broadcaster is essential to answering the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify the pay-per-view service broadcasting the David Benavidez versus Demetrius Andrade fight.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "This identifies the specific platform for a featured boxing event, which is a key part of the query.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should identify the platform used to broadcast NBL matches.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This covers the broadcasting information for a featured league, which is central to the query.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should identify the platform broadcasting the Day of Reckoning boxing event.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This identifies the broadcaster for a major boxing event, directly answering the query.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should identify the broadcaster for the Paro versus Love boxing match.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "This provides the broadcasting information for a specific boxing match mentioned in the claims.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should identify the broadcasting network for Fulham Premier League matches in India.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This provides specific regional broadcasting information for a featured team, which is relevant to the query.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should identify the broadcaster for the Chelsea versus Tottenham match in the UK.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "This specifies the broadcasting platform for a featured match, directly addressing the query.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "3d27c1df-9fb8-4809-9959-f446ae51ed0c",
+        "question_text": "Which players are identified as key figures in major off-season roster transactions?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify Shohei Ohtani as a primary figure in free agency.",
+                "source_count": 6,
+                "score": 10,
+                "reasoning": "Ohtani is explicitly highlighted as a central figure in the provided claims, making his inclusion essential for a complete answer.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should identify Juan Soto as a key player involved in trade discussions.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "Soto is a major subject of trade-related claims, which is a core component of the query regarding roster transactions.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention Yoshinobu Yamamoto as a prominent free agent pitcher.",
+                "source_count": 4,
+                "score": 9,
+                "reasoning": "Yamamoto is identified as a highly sought-after player, representing a significant off-season transaction narrative.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should note that Tyler Glasnow was involved in a player trade.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "Glasnow's trade is a notable roster transaction mentioned in the claims.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should identify Cody Bellinger as a significant target in free agency.",
+                "source_count": 2,
+                "score": 8,
+                "reasoning": "Bellinger is highlighted as a top free agent target, which is relevant to the query about key figures in transactions.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that Jarred Kelenic was moved via a trade.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Kelenic's involvement in a multi-player trade is a relevant roster transaction.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should acknowledge that various other players signed short-term contracts or were involved in minor roster moves.",
+                "source_count": 5,
+                "score": 5,
+                "reasoning": "These players represent additional roster activity, though they are less central than the primary stars mentioned in the other claims.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "16fb56b2-64ae-47ea-9c26-11662744132c",
+        "question_text": "What roles do software updates and patches play in the lifecycle of digital products?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that updates allow for the introduction of new features to digital products.",
+                "source_count": 2,
+                "score": 9,
+                "reasoning": "Adding new functionality is a primary role of software updates in a product's lifecycle.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that updates can fundamentally reframe or improve the user experience of a product after its initial release.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "Reframing the experience is a major role that can extend the relevance and quality of a product.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should explain that updates help maintain user engagement with older products.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "Keeping products relevant over time is a core lifecycle management strategy.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should explain that algorithm updates can be used to close loopholes and change ranking rules.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "In search contexts, updates serve as a regulatory mechanism to maintain system integrity.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should mention that updates provide quality-of-life improvements to reduce user frustration.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Improving usability is a common role for patches in the ongoing support of digital products.",
+                "rank": 5
+            },
+            {
+                "statement": "The response should mention that updates can have significant economic impacts on users or businesses relying on the product.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Understanding the external consequences of updates is important for a complete view of their role.",
+                "rank": 6
+            },
+            {
+                "statement": "The response should note that updates can be used to implement safety measures and guardrails.",
+                "source_count": 1,
+                "score": 7,
+                "reasoning": "Implementing safety protocols is a key role for managing the impact of digital products on users.",
+                "rank": 7
+            }
+        ]
+    },
+    {
+        "question_id": "e88924e0-521c-4d99-9ed7-c0aacab6b823",
+        "question_text": "What pricing strategies do technology companies employ for their hardware product lines?",
+        "map_assertions": [
+            {
+                "statement": "The response should mention that companies sell refurbished hardware at a discount to provide a lower-cost alternative to new units.",
+                "source_count": 1,
+                "score": 9,
+                "reasoning": "Refurbished products are a primary strategy for hardware companies to manage inventory and reach price-sensitive customers. This is a core pricing strategy.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should state that manufacturers reduce the price of older hardware models following the launch of newer product generations.",
+                "source_count": 1,
+                "score": 8,
+                "reasoning": "Price drops on legacy models are a standard industry practice to clear stock and manage the product lifecycle. This is essential for understanding hardware pricing dynamics.",
+                "rank": 2
+            },
+            {
+                "statement": "The response should mention that companies utilize promotional pricing during specific sales events to offer temporary discounts.",
+                "source_count": 3,
+                "score": 7,
+                "reasoning": "Seasonal or event-based promotions are a common tactic to drive volume, making it a relevant aspect of hardware pricing strategies.",
+                "rank": 3
+            },
+            {
+                "statement": "The response should mention that companies keep older hardware in their product lineup to serve as budget-friendly options.",
+                "source_count": 2,
+                "score": 7,
+                "reasoning": "Maintaining older models as budget options is a strategic decision to capture different market segments without needing to develop new low-cost hardware.",
+                "rank": 4
+            },
+            {
+                "statement": "The response should state that hardware pricing can be dynamic, with discounts sometimes offered shortly after or even before a product's release.",
+                "source_count": 1,
+                "score": 5,
+                "reasoning": "This highlights that pricing is not always fixed, which is an important nuance in modern technology retail. It is less central than core strategies like discounting or lifecycle pricing.",
+                "rank": 5
+            }
+        ]
+    },
+    {
+        "question_id": "cc64e35e-d6cd-47c6-9c19-b6983067b963",
+        "question_text": "Which specific regions or locations are identified as sites for sustainable living experiments?",
+        "map_assertions": [
+            {
+                "statement": "The response should identify the Possibility Alliance as a location for sustainable living experiments.",
+                "source_count": 3,
+                "score": 10,
+                "reasoning": "This is the primary entity identified in the claims as a site for sustainable living, making it essential to answering the query.",
+                "rank": 1
+            },
+            {
+                "statement": "The response should mention that the identified site is located in Maine.",
+                "source_count": 3,
+                "score": 8,
+                "reasoning": "Providing the geographic context of the site is important for a complete answer regarding the location of these experiments.",
+                "rank": 2
+            }
+        ]
+    }
+]

@@ -18,11 +18,9 @@ import os
 from pathlib import Path
 
 from stratified_overview.allocation import EqualWeights, SizeProportional, SqrtSizeSpread
-from stratified_overview.chunking import ParagraphChunker
-from stratified_overview.cleaning import RepeatedParagraphFilter
 from stratified_overview.config import OverviewConfig
-from stratified_overview.corpora import MultiHopRagCorpus
 from stratified_overview.embedding import CachedEmbedder, SentenceTransformerEmbedder
+from stratified_overview.experiment import check_token_estimate, load_dotenv, prepare_multihop_corpus
 from stratified_overview.generation import (
     SYSTEM_PROMPT,
     ClaudeOverviewGenerator,
@@ -35,7 +33,7 @@ from stratified_overview.noise import AssignToNearest, DropNoise, KeepAsMisc
 from stratified_overview.pipeline import CorpusOverviewPipeline
 from stratified_overview.report import PilotReport
 from stratified_overview.selection import CentroidOnly, DiverseMMR
-from stratified_overview.tokens import DEFAULT_SCALES, TiktokenCounter, TokenCalibration
+from stratified_overview.tokens import TiktokenCounter, TokenCalibration
 
 ALLOCATIONS = {"sqrt-spread": SqrtSizeSpread, "size": SizeProportional, "equal": EqualWeights}
 NOISE_HANDLERS = {"assign": AssignToNearest, "misc": KeepAsMisc, "drop": DropNoise}
@@ -60,16 +58,6 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--out", type=Path, default=Path("pilot_output"))
     parser.add_argument("--cache-dir", type=Path, default=Path(".cache"))
     return parser.parse_args()
-
-
-def load_dotenv(path: Path) -> None:
-    """Set variables from a KEY=VALUE file without overriding ones already set."""
-    if not path.exists():
-        return
-    for line in path.read_text(encoding="utf-8").splitlines():
-        key, sep, value = line.partition("=")
-        if sep and not key.strip().startswith("#"):
-            os.environ.setdefault(key.strip(), value.strip().strip("'\""))
 
 
 def resolve_provider(requested: str) -> str:
@@ -103,23 +91,6 @@ def build_generator(
     return ClaudeOverviewGenerator(model=model)
 
 
-def check_token_estimate(
-    calibration: TokenCalibration, model: str, counter: TiktokenCounter, prompt: str, billed: int
-) -> str:
-    """Compare the estimate with the billed count and store the new scale."""
-    raw = counter.raw_count(SYSTEM_PROMPT) + counter.raw_count(prompt)
-    estimated = round(raw * counter.scale)
-    deviation = (billed - estimated) / billed
-    scale = calibration.record(model, raw, billed)
-    message = (
-        f"token estimate {estimated:,} vs billed {billed:,} ({deviation:+.1%}); "
-        f"scale {counter.scale:.3f} -> {scale:.3f} saved for next run"
-    )
-    if abs(deviation) > 0.10:
-        logging.warning("%s -- budget was off by more than 10%%", message)
-    return message
-
-
 def main() -> None:
     args = parse_args()
     load_dotenv(Path(".env"))
@@ -136,16 +107,12 @@ def main() -> None:
     counter = TiktokenCounter(scale=calibration.scale_for(model))
     logging.info("counting tokens for %s with scale %.3f", model, counter.scale)
 
-    documents = MultiHopRagCorpus().load(limit=args.limit)
-    cleaning = RepeatedParagraphFilter(min_documents=3).clean(documents)
-    # Chunk with a fixed scale: a calibration update must not move chunk
-    # boundaries, or every run would invalidate the embedding cache.
-    chunk_counter = TiktokenCounter(scale=DEFAULT_SCALES.get(model, 1.0))
-    chunks = ParagraphChunker(args.chunk_tokens, chunk_counter).chunk(cleaning.documents)
+    corpus = prepare_multihop_corpus(model, args.chunk_tokens, limit=args.limit)
+    chunks = corpus.chunks
     logging.info(
         "loaded %d articles; removed %d boilerplate paragraphs -> %d chunks",
-        len(documents),
-        cleaning.paragraphs_removed,
+        len(corpus.documents),
+        corpus.paragraphs_removed,
         len(chunks),
     )
 
@@ -173,7 +140,8 @@ def main() -> None:
     else:
         (args.out / "overview.md").write_text(result.overview.text, encoding="utf-8")
         prompt = OverviewPromptBuilder().build(result.request)
-        logging.info(check_token_estimate(calibration, model, counter, prompt, result.overview.input_tokens))
+        texts = [SYSTEM_PROMPT, prompt]
+        logging.info(check_token_estimate(calibration, model, counter, texts, result.overview.input_tokens))
 
     print(report.to_markdown(include_overview=not args.dry_run))
     print(f"Wrote {args.out.resolve()}")

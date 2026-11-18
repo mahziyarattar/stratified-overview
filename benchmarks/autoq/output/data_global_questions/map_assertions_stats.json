@@ -1,0 +1,33 @@
+{
+  "file_path": "map_assertions.json",
+  "assertion_type": "map",
+  "total_questions": 50,
+  "total_assertions": 294,
+  "assertions_per_question": {
+    "count": 50,
+    "total": 294,
+    "mean": 5.88,
+    "std": 1.807,
+    "min": 1.0,
+    "max": 11.0,
+    "median": 6.0
+  },
+  "sources_per_assertion": {
+    "count": 294,
+    "total": 871,
+    "mean": 2.963,
+    "std": 2.416,
+    "min": 1.0,
+    "max": 16.0,
+    "median": 2.0
+  },
+  "unique_sources_per_question": {
+    "count": 50,
+    "total": 571,
+    "mean": 11.42,
+    "std": 6.6,
+    "min": 3.0,
+    "max": 31.0,
+    "median": 9.0
+  }
+}

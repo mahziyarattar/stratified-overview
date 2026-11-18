@@ -1,0 +1,51 @@
+{
+  "file_path": "assertions.json",
+  "assertion_type": "global",
+  "total_questions": 50,
+  "total_assertions": 146,
+  "assertions_per_question": {
+    "count": 50,
+    "total": 146,
+    "mean": 2.92,
+    "std": 1.181,
+    "min": 1.0,
+    "max": 5.0,
+    "median": 3.0
+  },
+  "sources_per_assertion": {
+    "count": 146,
+    "total": 868,
+    "mean": 5.945,
+    "std": 6.155,
+    "min": 1.0,
+    "max": 44.0,
+    "median": 4.0
+  },
+  "unique_sources_per_question": {
+    "count": 50,
+    "total": 554,
+    "mean": 11.08,
+    "std": 6.209,
+    "min": 3.0,
+    "max": 31.0,
+    "median": 9.0
+  },
+  "unique_claim_sources_per_question": {
+    "count": 50,
+    "total": 791,
+    "mean": 15.82,
+    "std": 10.15,
+    "min": 3.0,
+    "max": 45.0,
+    "median": 11.5
+  },
+  "supporting_assertions_per_assertion": {
+    "count": 146,
+    "total": 287,
+    "mean": 1.966,
+    "std": 1.305,
+    "min": 1.0,
+    "max": 9.0,
+    "median": 2.0
+  }
+}
