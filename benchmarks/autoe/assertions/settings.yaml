@@ -1,0 +1,55 @@
+## Fact coverage: how many of AutoQ's facts each method's answers contain.
+## Activity questions have no facts (AutoQ does not generate them), so only data sets are scored.
+## Run from this folder (paths are relative to it):
+##   cd benchmarks/autoe/assertions
+##   ../../../.venv-bench/bin/benchmark-qed autoe assertion-scores settings.yaml
+
+input_dir: ../../answers # <method>/<set>.json answers plus <set>_assertions.json (copied by run_answers.py)
+# Explicit because benchmark-qed 0.4.0's default ("{input_dir}/{rag_method}/...") uses a
+# placeholder its scoring code never fills in (KeyError: 'rag_method').
+answers_path_template: "{input_dir}/{generated_rag}/{question_set}.json"
+output_dir: output
+rag_methods:
+  - stratified-overview
+  - top-k-rag
+  - kmeans-centroids
+question_sets:
+  - data_global
+  - data_local
+pass_threshold: 0.5
+trials: 2 # fact checks are less noisy than preference judgments; pairwise uses 4
+run_significance_test: true
+significance_alpha: 0.05
+significance_correction: holm
+
+## LLM Configuration: the judge
+llm_config:
+  model: pardis/glm-53
+  auth_type: api_key
+  api_key: ${ZIDEV_API_KEY}
+  # bounded.chat = LiteLLM with a hard cap on simultaneous requests
+  # and requests per minute (benchmarks/bounded_judge.py: JUDGE_MAX_IN_FLIGHT=14,
+  # JUDGE_MAX_RPM=25 by default; the key allows 30/min and 16 connections).
+  llm_provider: bounded.chat
+  # 0 disables BenchmarkQED's start-rate limiter, which never capped open requests.
+  concurrent_requests: 0
+  init_args:
+    api_base: https://llm.dev.zidev.ir/v1 # OpenAI-compatible endpoint
+    model_provider: openai # route through LiteLLM's OpenAI-compatible client
+  retry:
+    type: exponential_backoff
+    max_retries: 8
+    base_delay: 2.0
+    max_delay: 60.0 # long enough to wait out a per-minute quota window
+    jitter: true
+  custom_providers:
+    - model_type: chat
+      name: bounded.chat
+      module: bounded_judge
+      model_class: BoundedLiteLLMCompletion
+
+prompt_config:
+  user_prompt:
+    prompt: prompts/assertion_user_prompt.txt
+  system_prompt:
+    prompt: prompts/assertion_system_prompt.txt

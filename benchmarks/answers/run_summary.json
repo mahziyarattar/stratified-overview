@@ -1,0 +1,25 @@
+{
+  "overview": {
+    "input_tokens": 39870,
+    "output_tokens": 4442,
+    "estimated_cost_usd": 0.006208
+  },
+  "top-k-rag": {
+    "answers": 150,
+    "input_tokens": 6072230,
+    "output_tokens": 207986,
+    "estimated_cost_usd": 0.711216
+  },
+  "kmeans-centroids": {
+    "answers": 150,
+    "input_tokens": 6004826,
+    "output_tokens": 149720,
+    "estimated_cost_usd": 0.6753426
+  },
+  "stratified-overview": {
+    "answers": 150,
+    "input_tokens": 6324926,
+    "output_tokens": 156882,
+    "estimated_cost_usd": 0.7109336
+  }
+}

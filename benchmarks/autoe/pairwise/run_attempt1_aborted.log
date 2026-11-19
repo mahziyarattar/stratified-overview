@@ -1,0 +1,37 @@
+Scoring stratified-overview vs top-k-rag for data_global
+[judge progress] 50 done (0 failed) | 1.0% of 4800, ETA 173.8 min | avg 30.4 s/call, 15 in flight
+[judge] first RateLimitError (429): litellm.RateLimitError: RateLimitError: OpenAIException - litellm.RateLimitError: RateLimitError: OpenAIException - rpm admission denied: request rate limit exceeded (rate_limit_id=7298a88d-34db-408d-a4bd-7d0b55f13ea7, limit=30). Received Model Group=pardis/glm-53
+Available Model Group Fallbacks=Non
+[judge progress] 100 done (0 failed) | 2.1% of 4800, ETA 179.0 min | avg 34.0 s/call, 15 in flight | 107 attempts, errors {'RateLimitError (429)': 7}
+[judge progress] 150 done (0 failed) | 3.1% of 4800, ETA 183.2 min | avg 36.4 s/call, 15 in flight | 166 attempts, errors {'RateLimitError (429)': 15}
+[judge progress] 200 done (0 failed) | 4.2% of 4800, ETA 183.1 min | avg 37.0 s/call, 15 in flight | 223 attempts, errors {'RateLimitError (429)': 23}
+[judge progress] 250 done (0 failed) | 5.2% of 4800, ETA 183.6 min | avg 37.6 s/call, 15 in flight | 283 attempts, errors {'RateLimitError (429)': 31}
+[judge progress] 300 done (0 failed) | 6.2% of 4800, ETA 182.2 min | avg 37.9 s/call, 15 in flight | 341 attempts, errors {'RateLimitError (429)': 39}
+[judge progress] 350 done (0 failed) | 7.3% of 4800, ETA 184.5 min | avg 38.1 s/call, 15 in flight | 407 attempts, errors {'RateLimitError (429)': 50}
+[judge progress] 400 done (0 failed) | 8.3% of 4800, ETA 181.5 min | avg 38.4 s/call, 15 in flight | 462 attempts, errors {'RateLimitError (429)': 58}
+[judge progress] 450 done (0 failed) | 9.4% of 4800, ETA 178.8 min | avg 38.6 s/call, 15 in flight | 518 attempts, errors {'RateLimitError (429)': 66}
+[judge progress] 500 done (0 failed) | 10.4% of 4800, ETA 176.5 min | avg 38.6 s/call, 15 in flight | 575 attempts, errors {'RateLimitError (429)': 74}
+[judge progress] 550 done (0 failed) | 11.5% of 4800, ETA 174.6 min | avg 38.8 s/call, 15 in flight | 633 attempts, errors {'RateLimitError (429)': 81}
+[judge progress] 600 done (0 failed) | 12.5% of 4800, ETA 172.9 min | avg 39.0 s/call, 15 in flight | 692 attempts, errors {'RateLimitError (429)': 91}
+[judge progress] 650 done (0 failed) | 13.5% of 4800, ETA 170.6 min | avg 39.1 s/call, 15 in flight | 749 attempts, errors {'RateLimitError (429)': 98}
+[judge progress] 700 done (0 failed) | 14.6% of 4800, ETA 168.8 min | avg 39.2 s/call, 15 in flight | 807 attempts, errors {'RateLimitError (429)': 107}
+[judge progress] 750 done (0 failed) | 15.6% of 4800, ETA 167.3 min | avg 39.3 s/call, 15 in flight | 868 attempts, errors {'RateLimitError (429)': 117}
+[judge progress] 800 done (0 failed) | 16.7% of 4800, ETA 165.3 min | avg 39.4 s/call, 0 in flight | 926 attempts, errors {'RateLimitError (429)': 126}
+Scoring comprehensiveness... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring diversity...         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring empowerment...       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring relevance...         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring stratified-overview vs top-k-rag for activity_global
+[judge progress] 850 done (0 failed) | 17.7% of 4800, ETA 164.9 min | avg 39.1 s/call, 15 in flight | 994 attempts, errors {'RateLimitError (429)': 138}
+[judge progress] 900 done (0 failed) | 18.8% of 4800, ETA 162.4 min | avg 39.2 s/call, 15 in flight | 1050 attempts, errors {'RateLimitError (429)': 146}
+[judge progress] 950 done (0 failed) | 19.8% of 4800, ETA 160.0 min | avg 39.2 s/call, 15 in flight | 1106 attempts, errors {'RateLimitError (429)': 153}
+[judge progress] 1000 done (0 failed) | 20.8% of 4800, ETA 157.8 min | avg 39.2 s/call, 15 in flight | 1163 attempts, errors {'RateLimitError (429)': 162}
+[judge progress] 1050 done (0 failed) | 21.9% of 4800, ETA 155.6 min | avg 39.3 s/call, 15 in flight | 1220 attempts, errors {'RateLimitError (429)': 170}
+[judge progress] 1100 done (0 failed) | 22.9% of 4800, ETA 153.6 min | avg 39.3 s/call, 15 in flight | 1279 attempts, errors {'RateLimitError (429)': 178}
+[judge progress] 1150 done (0 failed) | 24.0% of 4800, ETA 151.5 min | avg 39.4 s/call, 15 in flight | 1337 attempts, errors {'RateLimitError (429)': 186}
+[judge progress] 1200 done (0 failed) | 25.0% of 4800, ETA 149.3 min | avg 39.4 s/call, 15 in flight | 1394 attempts, errors {'RateLimitError (429)': 193}
+[judge progress] 1250 done (0 failed) | 26.0% of 4800, ETA 147.3 min | avg 39.4 s/call, 15 in flight | 1453 attempts, errors {'RateLimitError (429)': 202}
+[judge progress] 1300 done (0 failed) | 27.1% of 4800, ETA 145.1 min | avg 39.4 s/call, 15 in flight | 1510 attempts, errors {'RateLimitError (429)': 209}
+[judge progress] 1350 done (0 failed) | 28.1% of 4800, ETA 143.0 min | avg 39.4 s/call, 15 in flight | 1568 attempts, errors {'RateLimitError (429)': 217}
+[judge progress] 1400 done (0 failed) | 29.2% of 4800, ETA 140.9 min | avg 39.4 s/call, 15 in flight | 1625 attempts, errors {'RateLimitError (429)': 225}
+ABORT: 17 open connections exceed the cap of 16

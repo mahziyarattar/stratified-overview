@@ -1,0 +1,5 @@
+question_set,criteria,base_name,other_name,base_mean,shapiro_base,base_normal,other_mean,shapiro_other,other_normal,p_value,test,statistic,uncorrected_significance,formatted_p_value,corrected_p_value,corrected_significance,formatted_corrected_p_value
+data_global,comprehensiveness,stratified-overview,stratified-overview-copy,0.5,,False,0.5,,False,1.0,wilcoxon,,False,1.000,1.0,False,1.000
+data_global,diversity,stratified-overview,stratified-overview-copy,0.5,,False,0.5,,False,1.0,wilcoxon,,False,1.000,1.0,False,1.000
+data_global,empowerment,stratified-overview,stratified-overview-copy,0.5,,False,0.5,,False,1.0,wilcoxon,,False,1.000,1.0,False,1.000
+data_global,relevance,stratified-overview,stratified-overview-copy,0.5,,False,0.5,,False,1.0,wilcoxon,,False,1.000,1.0,False,1.000

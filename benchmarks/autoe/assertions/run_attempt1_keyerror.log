@@ -1,0 +1,67 @@
+Running multi-RAG assertion scoring
+  Input dir: ../../answers
+  Output dir: output
+  RAG methods: ['stratified-overview', 'top-k-rag', 'kmeans-centroids']
+  Question sets: ['data_global', 'data_local']
+  Top-k assertions: all
+  Trials: 2
+  Significance test: enabled (alpha=0.05, correction=holm)
+Processing question set: data_global
+  Using all assertions (no filtering)
+  Processing stratified-overview for data_global
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /Users/mahziyar/Desktop/Python                                               │
+│ Projects/stratified-overview/.venv-bench/lib/python3.12/site-packages/benchm │
+│ ark_qed/autoe/cli.py:471 in assertion_scores                                 │
+│                                                                              │
+│    468 │   is_multi_rag = "rag_methods" in raw_config                        │
+│    469 │                                                                     │
+│    470 │   if is_multi_rag:                                                  │
+│ ❱  471 │   │   _run_multi_rag_assertion_scores(config_path,                  │
+│        print_model_usage)                                                    │
+│    472 │   else:                                                             │
+│    473 │   │   if output is None:                                            │
+│    474 │   │   │   rich_print(                                               │
+│                                                                              │
+│ /Users/mahziyar/Desktop/Python                                               │
+│ Projects/stratified-overview/.venv-bench/lib/python3.12/site-packages/benchm │
+│ ark_qed/autoe/cli.py:644 in _run_multi_rag_assertion_scores                  │
+│                                                                              │
+│    641 │   │   │   )                                                         │
+│    642 │                                                                     │
+│    643 │   # Run the evaluation pipeline                                     │
+│ ❱  644 │   results_df = run_assertion_evaluation(                            │
+│    645 │   │   llm_client=llm_client,                                        │
+│    646 │   │   llm_config=config.llm_config,                                 │
+│    647 │   │   question_sets=config.question_sets,                           │
+│                                                                              │
+│ /Users/mahziyar/Desktop/Python                                               │
+│ Projects/stratified-overview/.venv-bench/lib/python3.12/site-packages/benchm │
+│ ark_qed/autoe/assertion/pipeline.py:428 in run_assertion_evaluation          │
+│                                                                              │
+│   425 │   │   for generated_rag in generated_rags:                           │
+│   426 │   │   │   rich_print(f"  Processing {generated_rag} for              │
+│       {question_set}")                                                       │
+│   427 │   │   │                                                              │
+│ ❱ 428 │   │   │   result = evaluate_rag_method(                              │
+│   429 │   │   │   │   llm_client=llm_client,                                 │
+│   430 │   │   │   │   llm_config=llm_config,                                 │
+│   431 │   │   │   │   generated_rag=generated_rag,                           │
+│                                                                              │
+│ /Users/mahziyar/Desktop/Python                                               │
+│ Projects/stratified-overview/.venv-bench/lib/python3.12/site-packages/benchm │
+│ ark_qed/autoe/assertion/pipeline.py:236 in evaluate_rag_method               │
+│                                                                              │
+│   233 │   question_set_storage = storage.child(question_set)                 │
+│   234 │                                                                      │
+│   235 │   # Define answers path before try block so it's available in except │
+│       block                                                                  │
+│ ❱ 236 │   answers_path = answers_path_template.format(                       │
+│   237 │   │   input_dir=input_dir, generated_rag=generated_rag,              │
+│       question_set=question_set                                              │
+│   238 │   )                                                                  │
+│   239                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+KeyError: 'rag_method'
+/opt/homebrew/Cellar/python@3.12/3.12.11/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py:730: ResourceWarning: unclosed event loop <_UnixSelectorEventLoop running=False closed=False debug=False>
+exit 1 | peak open connections: 1 (hard stop above 16)

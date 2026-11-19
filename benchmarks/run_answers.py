@@ -16,6 +16,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import shutil
 from pathlib import Path
 
 import numpy as np
@@ -83,6 +84,14 @@ def build_overview(args, corpus, embedder, counter) -> dict:
     return record
 
 
+def copy_assertions(questions_dir: Path, out: Path, question_sets: list[str]) -> None:
+    """Place AutoQ's fact lists where AutoE's assertion scoring looks: <out>/<set>_assertions.json."""
+    for question_set in question_sets:
+        source = questions_dir / f"{question_set}_questions" / "assertions.json"
+        if source.exists():
+            shutil.copyfile(source, out / f"{question_set}_assertions.json")
+
+
 def main() -> None:
     args = parse_args()
     load_dotenv(Path(".env"))
@@ -108,6 +117,7 @@ def main() -> None:
         QuestionAnswerer(OpenRouterChatClient(args.model)), selectors, AnswerStore(args.out), workers=args.workers
     )
     answers = runner.run(questions)
+    copy_assertions(args.questions, args.out, args.question_sets)
 
     usage: dict[str, dict[str, float]] = {}
     for answer in answers:

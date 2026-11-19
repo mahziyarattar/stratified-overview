@@ -1,0 +1,53 @@
+## Pairwise LLM judging: our method vs each baseline.
+## Run from this folder (paths are relative to it):
+##   cd benchmarks/autoe/pairwise
+##   ../../../.venv-bench/bin/benchmark-qed autoe pairwise-scores settings.yaml output
+
+base:
+  name: stratified-overview
+  answer_base_path: ../../answers/stratified-overview
+others:
+  - name: top-k-rag
+    answer_base_path: ../../answers/top-k-rag
+  - name: kmeans-centroids
+    answer_base_path: ../../answers/kmeans-centroids
+question_sets:
+  - data_global
+  - activity_global
+  - data_local # control: top-k RAG should win here
+
+## Scoring Configuration
+# Default criteria: comprehensiveness, diversity, empowerment, relevance.
+trials: 4 # Even, so answer order is counterbalanced.
+
+## LLM Configuration: the judge
+llm_config:
+  model: pardis/glm-53
+  auth_type: api_key
+  api_key: ${ZIDEV_API_KEY}
+  # bounded.chat = LiteLLM with a hard cap on simultaneous requests
+  # and requests per minute (benchmarks/bounded_judge.py: JUDGE_MAX_IN_FLIGHT=14,
+  # JUDGE_MAX_RPM=25 by default; the key allows 30/min and 16 connections).
+  llm_provider: bounded.chat
+  # 0 disables BenchmarkQED's start-rate limiter, which never capped open requests.
+  concurrent_requests: 0
+  init_args:
+    api_base: https://llm.dev.zidev.ir/v1 # OpenAI-compatible endpoint
+    model_provider: openai # route through LiteLLM's OpenAI-compatible client
+  retry:
+    type: exponential_backoff
+    max_retries: 8
+    base_delay: 2.0
+    max_delay: 60.0 # long enough to wait out a per-minute quota window
+    jitter: true
+  custom_providers:
+    - model_type: chat
+      name: bounded.chat
+      module: bounded_judge
+      model_class: BoundedLiteLLMCompletion
+
+prompt_config:
+  user_prompt:
+    prompt: prompts/pairwise_user_prompt.txt
+  system_prompt:
+    prompt: prompts/pairwise_system_prompt.txt

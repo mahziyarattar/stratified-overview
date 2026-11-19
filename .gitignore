@@ -13,3 +13,6 @@ pilot_output/
 
 # Local secrets
 .env
+
+# Judge progress, rewritten during runs
+judge_progress.json

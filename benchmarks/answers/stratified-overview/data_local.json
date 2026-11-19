@@ -1,0 +1,402 @@
+[
+  {
+    "question_id": "b0945844-9987-447d-9d88-4a6e5c6f763c",
+    "question_text": "What was the final score of the Premier League match played between Manchester United and Chelsea at Old Trafford on December 6, 2023?",
+    "answer": "The database doesn't cover a Manchester United vs. Chelsea match at Old Trafford on December 6, 2023, so I can't give a final score.\n\nIt does include Manchester United coverage from the same period. It describes the club's exit from Europe after a defeat to Bayern Munich, and a piece on mounting pressure on Erik ten Hag after a heavy United defeat. Neither gives a Chelsea result. The database also includes Bournemouth's 3-2 win at Nottingham Forest, which doesn't involve either club.",
+    "method": "stratified-overview",
+    "input_tokens": 42179,
+    "output_tokens": 610
+  },
+  {
+    "question_id": "93a4ae5f-ba56-4390-ac38-ef1dfa6e8235",
+    "question_text": "Which New Zealand Breakers import player suffered a broken foot during the team's loss to the Adelaide 36ers on October 19, 2023?",
+    "answer": "The material doesn't answer this. Nothing in the database covers the New Zealand Breakers, the Adelaide 36ers, an October 19, 2023 game, or any player's foot injury. The basketball coverage is limited to the NBA: Golden State Warriors' struggles and draft record, and NBA betting guides for the 2023-24 season. The Australian basketball league isn't represented.",
+    "method": "stratified-overview",
+    "input_tokens": 42185,
+    "output_tokens": 304
+  },
+  {
+    "question_id": "4f03fd76-f3e0-48ef-8f75-a563389fb9eb",
+    "question_text": "According to the financial analysis conducted by expert witness Peter Easton, what total amount of money was transferred to Sam Bankman-Fried's company, Paper Bird?",
+    "answer": "The database doesn't cover this. Nothing in it mentions Peter Easton, an expert witness, a financial analysis, or Paper Bird, so I can't give the total amount.\n\nIt does cover the FTX fraud trial in general. One piece focuses on testimony about Gary Wang, FTX's co-founder and chief technology officer, who supervised code behind a key prosecution claim that Alameda Research had secret, special privileges with FTX's funds. That piece also gives ownership figures: Wang held 10 percent of Alameda and 17 percent of FTX and earned a $200,000 salary, while Sam Bankman-Fried owned 90 percent of Alameda and 65 percent of FTX. None of this material mentions Paper Bird or any transfer totals.",
+    "method": "stratified-overview",
+    "input_tokens": 42193,
+    "output_tokens": 504
+  },
+  {
+    "question_id": "8e4303a7-6eff-440e-bfa7-1897101b7cab",
+    "question_text": "What specific reason did the OpenAI board of directors cite for the termination of CEO Sam Altman in November 2023?",
+    "answer": "The database says OpenAI's board fired Sam Altman over an alleged lack of \"candor,\" but it does not say what that lack of candor involved. OpenAI declined to answer questions about it. The board's statement said Altman's behavior was hindering its ability to exercise its responsibilities.\n\nGreg Brockman, then OpenAI's chairman, responded that he and Altman were \"shocked and saddened by what the board did today,\" and he said he was removed from the board in a separate call shortly afterward. The material does not give any further detail on the board's reasoning.",
+    "method": "stratified-overview",
+    "input_tokens": 42176,
+    "output_tokens": 382
+  },
+  {
+    "question_id": "7bb01f24-4e68-4888-bdf0-611153c794cb",
+    "question_text": "How many monthly active users did the OpenAI chatbot ChatGPT reach by January 2023, two months after its initial release?",
+    "answer": "ChatGPT reached **100 million monthly active users** within two months of its November 2022 debut, which places the milestone around January 2023. The database describes this as the fastest user base growth in the history of the internet. The material doesn't give a separate figure for January 2023 itself.",
+    "method": "stratified-overview",
+    "input_tokens": 42178,
+    "output_tokens": 247
+  },
+  {
+    "question_id": "55401714-1733-4655-9b01-47196e6b1c1f",
+    "question_text": "What was the final score of the Monday Night Football game between the Detroit Lions and the Las Vegas Raiders played on October 30, 2023?",
+    "answer": "The database doesn't cover a Detroit Lions vs. Las Vegas Raiders game on October 30, 2023, so I can't give that score.\n\nThe only Monday Night Football result in the material is a Bears vs. Vikings game, which Chicago won 12-10. The Bears were 4-8 and the Vikings 6-6 at the time, so it was a later-season matchup, and Justin Fields was the Chicago quarterback.",
+    "method": "stratified-overview",
+    "input_tokens": 42184,
+    "output_tokens": 477
+  },
+  {
+    "question_id": "66c654c8-0669-46df-b7dc-02f14ab92b5f",
+    "question_text": "In which month of 2023 did Taylor Swift and Travis Kelce begin spending time together following Travis Kelce's public mention of her on his podcast?",
+    "answer": "The material doesn't answer this. It doesn't mention Kelce mentioning Swift on his podcast, and it doesn't say when the two began spending time together.\n\nThe closest evidence is a timeline piece describing Swift cheering at a Chiefs game when Kelce scored a touchdown, and the two being seen leaving the stadium together. That piece refers to Swift's 2014 album, *1989*, being re-released \"in October,\" which places those sightings before October 2023. The piece also says none of it confirms they were dating. So the most the database supports is that their public appearances together were in 2023, probably around the late-summer or early-autumn NFL season, but it doesn't name a month for when they started spending time together.",
+    "method": "stratified-overview",
+    "input_tokens": 42188,
+    "output_tokens": 762
+  },
+  {
+    "question_id": "cf07455f-de6c-4369-8f03-e0c16b0ce32c",
+    "question_text": "How many times has the professional boxer David Benavidez been stripped of his WBC super middleweight title throughout his career?",
+    "answer": "The material doesn't mention Benavidez ever being stripped of a WBC title, so I can't give a count. A preview of his fight with Demetrius Andrade says he won a title eliminator and then the WBC interim title, which he says guarantees him a spot to challenge for the division's belts. He also says he has been the mandatory challenger for about two years and is waiting for a fight with Canelo Álvarez. The database doesn't cover his full title history, so any loss or removal of a WBC belt would have to come from outside this material.",
+    "method": "stratified-overview",
+    "input_tokens": 42175,
+    "output_tokens": 285
+  },
+  {
+    "question_id": "2196223a-ee19-4c01-b60a-c281d766a113",
+    "question_text": "What was the record-low price for the Bose QuietComfort 45 over-ear headphones during the November 2023 sales period?",
+    "answer": "The database doesn't contain this information. It has no coverage of Bose headphones, including the QuietComfort 45, and no November 2023 sales pricing for them.\n\nThe closest related material is an October 2023 roundup of Prime Day deals on Amazon devices. It covers Echo Dot (5th Gen), Echo Show 8, and Echo Studio, and says the Echo Studio's price matched a low seen only once before. That isn't about Bose headphones or a November sale.",
+    "method": "stratified-overview",
+    "input_tokens": 42177,
+    "output_tokens": 347
+  },
+  {
+    "question_id": "85f4744e-823a-42d0-87ed-494c1badf029",
+    "question_text": "What is the subscription revenue split percentage granted to eligible creators by the Twitch Partner Plus program on their first $100,000 of annual earnings?",
+    "answer": "The material doesn't give the percentage. It mentions Twitch's revenue-split dispute and the Partner Plus program, but it never states the share eligible creators receive on their first $100,000 of annual earnings.\n\nWhat it does say is that smaller streamers who don't qualify for Partner Plus reportedly get a better deal on YouTube or Kick than on Twitch. Twitch's CEO, referred to as Dan, and Jeremy Forrester, its VP of Community Product, are described as responding to that competition. The material doesn't give the exact terms of either platform's split.",
+    "method": "stratified-overview",
+    "input_tokens": 42187,
+    "output_tokens": 480
+  },
+  {
+    "question_id": "929fc3ab-740e-463c-8fe4-4a228c4f4f02",
+    "question_text": "Who is the director of the 2023 film Anatomy of a Fall?",
+    "answer": "The material I have doesn't cover *Anatomy of a Fall* or its director, so I can't name one from this database. Its film coverage includes *Us*, *Five Nights at Freddy's*, *Spider-Man 2*, and Netflix's November lineup, but nothing on that title.",
+    "method": "stratified-overview",
+    "input_tokens": 42161,
+    "output_tokens": 193
+  },
+  {
+    "question_id": "cd6bbde1-e30e-489f-aad6-0b7cdd0c3eac",
+    "question_text": "What was the duration in years of the record-breaking contract Mike Trout signed that was used as a benchmark during Shohei Ohtani's 2023 free agency?",
+    "answer": "The database doesn't say anything about a Mike Trout contract, so I can't give its length. Trout isn't mentioned in any of the material, and the Shohei Ohtani free-agency coverage doesn't describe him as a benchmark.\n\nThe closest related material is the Ohtani rumors tracker, which covers the Cubs' interest, their hiring of Craig Counsell, and Ohtani's place at the top of their list. It also names Juan Soto as a trade target for other teams. The MLB free agency tracker covers the Dodgers' 12-year, $325 million deal with Yoshinobu Yamamoto. That deal is described as the largest MLB contract for a pitcher, surpassing Gerrit Cole's deal with the Yankees by $1 million, but the Cole deal's length isn't given.",
+    "method": "stratified-overview",
+    "input_tokens": 42190,
+    "output_tokens": 524
+  },
+  {
+    "question_id": "ffefea6f-b728-43b3-8695-a01c8bf4f39f",
+    "question_text": "In a country of 9.2 million people, how many individuals were estimated to be employed in the Israeli high-tech industry as of 2023?",
+    "answer": "The database doesn't answer this. None of the material gives an employment count for Israel's high-tech industry in 2023, and it doesn't mention the country's 9.2 million population in that context.\n\nThe closest coverage is a piece on Israeli office rents during and after the war. A market participant there says there were \"no huge hiring in high-tech\" before the fighting, and that high-tech and service firms were seeking 1,000 to 2,000 square meters in Haifa, Tel Aviv, and Rehovot. That describes leasing demand, not how many people work in the sector.",
+    "method": "stratified-overview",
+    "input_tokens": 42181,
+    "output_tokens": 353
+  },
+  {
+    "question_id": "b3bd690d-6e25-41ce-86bc-de95b2041154",
+    "question_text": "What are the names of the four humanities ancestries featured in the Luminant Age tabletop role-playing game setting?",
+    "answer": "The material doesn't cover this. I found no mention of a tabletop RPG called Luminant Age, its setting, or any humanities ancestries. The tabletop coverage is limited to *Monsterhearts* and *Mörk Borg*, neither of which is described in those terms. I can't name the four ancestries from this database.",
+    "method": "stratified-overview",
+    "input_tokens": 42174,
+    "output_tokens": 276
+  },
+  {
+    "question_id": "aa47b29e-dd4d-40f5-a1d2-2f39a1161012",
+    "question_text": "What is the manufacturer's suggested retail price for the USB-C model of the Apple Pencil as of November 2023?",
+    "answer": "The database doesn't cover this. It has no information on the Apple Pencil, including the USB-C model or its price. Its Apple coverage is limited to a review of the 16-inch M3 Max MacBook Pro and reporting on the Apple Watch import ban and the blood-oxygen algorithm workaround. For the Apple Pencil's suggested retail price, you would need to check Apple's own pricing or another source from around November 2023.",
+    "method": "stratified-overview",
+    "input_tokens": 42176,
+    "output_tokens": 312
+  },
+  {
+    "question_id": "c36d13dc-13bd-4e53-a6c3-ff385278ac4d",
+    "question_text": "According to IVC data, what was the total provisional tally of venture capital funding raised by Israeli startups during the first half of 2023?",
+    "answer": "The material doesn't answer this. It contains no IVC data and no figure for venture capital raised by Israeli startups in the first half of 2023.\n\nThe closest Israel-related coverage is a piece on Israeli office rents during and after the war, in which a broker describes the office market stalling in the war's first weeks, then slowly returning, with property owners not yet cutting rents. It doesn't address startup funding totals. The database also includes other funding stories, such as Ola Electric's $384.4 million raise, but none concern Israeli startups.",
+    "method": "stratified-overview",
+    "input_tokens": 42179,
+    "output_tokens": 339
+  },
+  {
+    "question_id": "d49ce80f-a650-4698-a377-ec7e4a240fe6",
+    "question_text": "To which alternative livestreaming platform did the creator known as MrsViolence move after experiencing a decline in monthly income on Twitch?",
+    "answer": "The material doesn't mention a creator called MrsViolence, so it can't tell us where that person moved. It does cover Twitch's revenue-split dispute and competition from other platforms. Those pieces say YouTube and Kick are \"starting to take off\" and are enticing streamers with better revenue splits. They also say smaller streamers who don't qualify for Twitch's Partner Plus may get a better deal on YouTube or Kick. Based on that general coverage, the likely alternatives are YouTube or Kick, but the material doesn't link either one to MrsViolence specifically.",
+    "method": "stratified-overview",
+    "input_tokens": 42182,
+    "output_tokens": 357
+  },
+  {
+    "question_id": "a394b7c7-04be-4417-8dfa-dba571039f3e",
+    "question_text": "What is the primary location of the home occupied by commandant Rudolf Höss in the 2023 film The Zone of Interest?",
+    "answer": "The database doesn't cover *The Zone of Interest* or Rudolf Höss, so I can't say where his home is set. Its coverage of 2023 film is limited to other titles, such as *Us*, *Five Nights at Freddy's*, and *Spider-Man 2*, and it has no material on this film's setting or characters.",
+    "method": "stratified-overview",
+    "input_tokens": 42178,
+    "output_tokens": 264
+  },
+  {
+    "question_id": "bf475ad3-c5e0-4c46-a651-38cedfa220ce",
+    "question_text": "During which month in 2023 was the remastered version of the video game Metroid Prime released via a Nintendo Direct event?",
+    "answer": "The material doesn't answer this. Nothing in the database mentions *Metroid Prime*, a remastered version, or a Nintendo Direct event, so I can't say in which month of 2023 it was released.\n\nThe closest Nintendo coverage is a piece on the Nintendo Switch launch lineup, which recommends *Animal Crossing: New Horizons* and *Super Mario Odyssey*. It doesn't mention *Metroid Prime* or any release timing for it.",
+    "method": "stratified-overview",
+    "input_tokens": 42176,
+    "output_tokens": 306
+  },
+  {
+    "question_id": "12aae820-e8ac-4f8b-92ad-8e8a7a05a1d5",
+    "question_text": "What is the minimum combined point total required for a bettor to win an over/under wager set at 211.5 points for a National Basketball Association game?",
+    "answer": "The database doesn't cover this. None of the material mentions a 211.5-point over/under line or the game it would apply to. The NBA betting coverage is a general guide to the 2023-24 season that names no lines or totals, and the Golden State Warriors pieces cover their 8-10 start and draft record, not betting markets.\n\nThe question can still be answered from how the line works. A half-point total such as 211.5 can't end in a push, so a bettor wins the over with a combined score of 212 points or more. A combined score of 211 or fewer wins the under.",
+    "method": "stratified-overview",
+    "input_tokens": 42181,
+    "output_tokens": 414
+  },
+  {
+    "question_id": "62f92b58-b8df-4dd6-a71b-15d2970a0fc6",
+    "question_text": "Which four Los Angeles Dodgers players were sent to meet with free agent pitcher Yoshinobu Yamamoto on December 13, 2023?",
+    "answer": "The material doesn't answer this. Nothing in it mentions a December 13, 2023 meeting between Yoshinobu Yamamoto and Dodgers players, so I can't name any of them.\n\nWhat the material does say is that the Dodgers reportedly signed Yamamoto to a 12-year, $325 million contract on Tuesday, December 19. That deal was the largest MLB contract for a pitcher, $1 million more than Gerrit Cole's deal with the Yankees, and it put Yamamoto alongside Shohei Ohtani on the defending NL West champions. Two days later, on December 21, the Giants were reported to be out of the Yamamoto sweepstakes.",
+    "method": "stratified-overview",
+    "input_tokens": 42189,
+    "output_tokens": 487
+  },
+  {
+    "question_id": "fba3b6df-5324-47b8-8d31-dc4995eea9f4",
+    "question_text": "Which online sportsbook application is the only one that provides live streaming of National Basketball Association games for its users?",
+    "answer": "The material doesn't answer this. No sportsbook is described as the only one offering live streaming of NBA games.\n\nThe closest items are:\n\n- **FanDuel Sportsbook** is the only sportsbook named in the sportsbook coverage. That coverage describes its Vermont welcome offer (a $100 bonus for registering before January 10, 2024, and a $200 bonus after a qualifying bet), and its range of about two dozen sports, props, and promotions. It says nothing about streaming.\n- **The 2023-24 NBA betting guide** is generic. It says state-regulated platforms ensure fair odds and a safe, transparent environment. It doesn't name any specific app or mention streaming.\n\nThe database doesn't include any comparison of sportsbook streaming features, so I can't identify a unique provider.",
+    "method": "stratified-overview",
+    "input_tokens": 42171,
+    "output_tokens": 479
+  },
+  {
+    "question_id": "9b7db2a5-fec2-4732-9bc9-611a3276ede8",
+    "question_text": "How many acres of land does the Possibility Alliance homestead located in Belfast, Maine, occupy?",
+    "answer": "The database doesn't contain this information. It has no coverage of the Possibility Alliance, its homestead, or Belfast, Maine, so I can't say how many acres the property occupies. A source that covers that organization or its location would be needed.",
+    "method": "stratified-overview",
+    "input_tokens": 42172,
+    "output_tokens": 205
+  },
+  {
+    "question_id": "4c9944de-3fcd-496c-8b58-6b41a0c2e3ef",
+    "question_text": "What is the primary activity for which the Hughes family at the Possibility Alliance uses fossil fuels?",
+    "answer": "The database doesn't cover this. It contains no material on a Hughes family or the Possibility Alliance, so I can't say what, if anything, they use fossil fuels for.\n\nThe closest related coverage is a piece on the COP negotiations over phasing out fossil fuels, which discusses the global warming of about 1.2 degrees Celsius since pre-industrial times. It doesn't mention any family or organization by that name.",
+    "method": "stratified-overview",
+    "input_tokens": 42172,
+    "output_tokens": 346
+  },
+  {
+    "question_id": "a5e4bf22-f5a3-45cf-8003-76116990bae2",
+    "question_text": "By what percentage does climate scientist Peter Kalmus estimate he has reduced his personal carbon emissions through his lifestyle changes?",
+    "answer": "The material doesn't contain this. Peter Kalmus is not mentioned anywhere in the database, so it cannot give a percentage for his personal carbon emissions or his lifestyle changes.\n\nThe closest climate coverage is a piece on patterns of surface warming and climate sensitivity, drawn from a 2022 US CLIVAR workshop. There is also a piece on the COP negotiations over phasing out fossil fuels. Neither addresses individual emissions.",
+    "method": "stratified-overview",
+    "input_tokens": 42184,
+    "output_tokens": 280
+  },
+  {
+    "question_id": "171ec3d5-d725-4ffe-9727-298926d68834",
+    "question_text": "What is the estimated range of global temperature rise by 2100 according to the 2022 United Nations report on international climate commitments?",
+    "answer": "The database doesn't contain this. Nothing in it cites a 2022 United Nations report on international climate commitments, and it gives no projected range for global temperature rise by 2100.\n\nThe closest climate material is a piece on the COP fossil-fuel phase-out negotiations, which says the world is about 1.2 degrees Celsius hotter than it was before the industrial revolution. A separate piece on surface-warming patterns and climate sensitivity comes from a US CLIVAR workshop held in Boulder, Colorado, in May 2022, but it doesn't give a 2100 projection.",
+    "method": "stratified-overview",
+    "input_tokens": 42177,
+    "output_tokens": 377
+  },
+  {
+    "question_id": "b0ce3f06-b702-4ca0-854e-8822364d4d84",
+    "question_text": "According to the book 'Democracy in a Hotter Time', what percentage of the world's population lives under authoritarian or competitive authoritarian regimes?",
+    "answer": "The material doesn't cover this. It contains no reference to *Democracy in a Hotter Time*, and nothing on the share of the world's population living under authoritarian or competitive authoritarian regimes. I can't give a figure from this database.\n\nThe climate coverage is limited to climate sensitivity and surface-warming patterns (from a 2022 US CLIVAR workshop), COP fossil-fuel phase-out talks, and a note that the world is about 1.2°C warmer than pre-industrial levels.",
+    "method": "stratified-overview",
+    "input_tokens": 42187,
+    "output_tokens": 270
+  },
+  {
+    "question_id": "1c9a5c02-6e1b-44a9-81ca-1eb2fd7d9da9",
+    "question_text": "What percentage of its total workforce did Brave Software lay off across its departments in October 2023?",
+    "answer": "The database doesn't cover Brave Software or any October 2023 layoffs at that company, so I can't give a percentage.\n\nThe closest material is a 2023 tech layoffs list, which covers other October 2023 cuts:\n\n- **Synapse** (an a16z-backed fintech) confirmed on October 6 that it had laid off 86 people, about 40% of its staff.\n- **Qualtrics** announced on October 4 that 780 roles were being eliminated, with \"several hundred\" more changing or moving locations in 2024.\n- **Hopper** announced on October 3 that it was cutting 30% of its full-time staff, or 250 jobs.\n- **Chainalysis** announced on October 2 that it was laying off about 15% of its workforce, roughly 150 employees.",
+    "method": "stratified-overview",
+    "input_tokens": 42167,
+    "output_tokens": 504
+  },
+  {
+    "question_id": "b015031e-5b8e-4757-9ddc-f0b60662dc0f",
+    "question_text": "What was the total amount of debt listed by the flexible office-space firm WeWork in its November 2023 Chapter 11 bankruptcy filing?",
+    "answer": "The database doesn't contain anything about WeWork, its November 2023 Chapter 11 filing, or any debt figure. Its coverage of office space is limited to a piece on Israeli office rents during and after the war, which describes a market that was slowly recovering and where property owners had not cut rents. It says nothing about WeWork or any U.S. flexible-workspace operator.",
+    "method": "stratified-overview",
+    "input_tokens": 42186,
+    "output_tokens": 199
+  },
+  {
+    "question_id": "92a6a99d-71c4-467a-ba71-c7edf1c124a8",
+    "question_text": "Which NFL team held the league-worst defensive Expected Points Added per dropback as of November 30, 2023?",
+    "answer": "The database doesn't answer this. It contains no Expected Points Added (EPA) statistics, and nothing in it ranks NFL defenses by EPA per dropback as of November 30, 2023.\n\nThe closest related item is a Week 14 fantasy football preview. It says Taysom Hill's matchup against the Panthers is favorable because they have the league's second-worst run defense. That is a rushing measure, not EPA per dropback, and it doesn't identify a worst overall defense. The database's other NFL coverage, such as the Bills-Bengals and Bears-Vikings game coverage, doesn't address defensive efficiency rankings.",
+    "method": "stratified-overview",
+    "input_tokens": 42174,
+    "output_tokens": 432
+  },
+  {
+    "question_id": "41005dc4-5492-4a24-9e81-c9871bda5751",
+    "question_text": "Who was named the starting quarterback for the Cleveland Browns for their Week 13 game against the Los Angeles Rams?",
+    "answer": "The database doesn't say who started at quarterback for the Cleveland Browns in their Week 13 game against the Los Angeles Rams. The Browns and the Rams don't appear anywhere in the material, so I can't name a starter.\n\nThe football coverage that is present centers on Week 14 fantasy rankings, the Bills vs. Bengals, Bears vs. Vikings, and USC vs. Notre Dame game-day pages, and a 49ers 2024 cap-space piece. None of these mention Cleveland's quarterback situation.",
+    "method": "stratified-overview",
+    "input_tokens": 42179,
+    "output_tokens": 327
+  },
+  {
+    "question_id": "34e2d800-2f3f-431c-bbf8-90158ba637e6",
+    "question_text": "How many sacks did the New England Patriots record against the New York Giants during their 2023 regular season matchup?",
+    "answer": "The database doesn't contain this information. I found no coverage of a 2023 regular-season game between the New England Patriots and the New York Giants, so there's no sack total to report.\n\nThe only Giants material is fantasy football coverage of Tommy DeVito in a Giants vs. Packers matchup. Nothing in the database mentions Patriots games, and no box scores or game recaps list sack statistics for either team.",
+    "method": "stratified-overview",
+    "input_tokens": 42172,
+    "output_tokens": 304
+  },
+  {
+    "question_id": "8692d9f2-cd53-4078-8ed6-2d1f58f0e132",
+    "question_text": "Which New Orleans Saints player led the team in targets per routes run following the injuries to Rashid Shaheed and Chris Olave on November 26, 2023?",
+    "answer": "The material doesn't answer this. It contains no coverage of the New Orleans Saints, Rashid Shaheed, or Chris Olave, and nothing about injuries on November 26, 2023, or target-share and routes-run statistics.\n\nThe closest related item is fantasy tight-end coverage for Week 14 that mentions Taysom Hill, a Saints player, facing the Panthers. It describes his rushing and receiving role, but it doesn't cover targets per route run or the effects of those injuries.",
+    "method": "stratified-overview",
+    "input_tokens": 42190,
+    "output_tokens": 336
+  },
+  {
+    "question_id": "3d7b4b25-b354-416a-b5d5-183a98ca1575",
+    "question_text": "What specific injury caused New England Patriots wide receiver Demario Douglas to be ruled out for the team's Week 13 game?",
+    "answer": "The database doesn't say what injury, if any, kept Demario Douglas out of the Patriots' Week 13 game. It doesn't mention Douglas or the Patriots at all.\n\nThe football coverage it does contain is mostly fantasy rankings for Week 14 and live blogs from other games, including Bills vs. Bengals and Bears vs. Vikings, which the Bears won 12-10. For Douglas's status, you would need a source that covers New England's Week 13 injury reports.",
+    "method": "stratified-overview",
+    "input_tokens": 42180,
+    "output_tokens": 309
+  },
+  {
+    "question_id": "4baa181f-abf9-4af7-8b2b-906c6033656e",
+    "question_text": "How many distinct cooking functions does the Breville Smart Oven Air Fryer Pro offer according to the November 2023 product descriptions?",
+    "answer": "The database doesn't answer this. None of the material covers the Breville Smart Oven Air Fryer Pro, and I found no November 2023 product description listing its cooking functions. The product coverage that does exist is limited to Amazon Echo devices (Echo Dot 5th Gen, Echo Show 8, Echo Studio) in October Prime Day deal roundups, the 16-inch M3 Max MacBook Pro review, and Keep Labs' lockable medication storage box. I can't give a function count from this material.",
+    "method": "stratified-overview",
+    "input_tokens": 42184,
+    "output_tokens": 297
+  },
+  {
+    "question_id": "29ef8213-8cc3-4eea-bc17-646bfd583988",
+    "question_text": "Which video game development studio created the card-based strategy game Marvel’s Midnight Suns?",
+    "answer": "The material doesn't say which studio developed *Marvel's Midnight Suns*. The game isn't mentioned anywhere in the database.\n\nThe video game coverage that is included focuses on *Baldur's Gate 3* builds, *Diablo 4* Season 2 updates, Nintendo Switch launch titles, and Microsoft's Activision deal. None of these address the developer of *Marvel's Midnight Suns*.",
+    "method": "stratified-overview",
+    "input_tokens": 42168,
+    "output_tokens": 418
+  },
+  {
+    "question_id": "87df8eef-d0f5-4557-afe2-ad89ec085faf",
+    "question_text": "What is the name of the primary protagonist in the role-playing video game Final Fantasy 16?",
+    "answer": "The material doesn't cover *Final Fantasy XVI* or its protagonist. The video game coverage focuses on *Baldur's Gate 3* (Warlock builds, feats, and subclasses), *Diablo 4* Season 2 updates, and the Nintendo Switch launch lineup. The tabletop RPG coverage includes *Monsterhearts* and *Mörk Borg*. I can't name the protagonist from this database.",
+    "method": "stratified-overview",
+    "input_tokens": 42168,
+    "output_tokens": 282
+  },
+  {
+    "question_id": "a8bbbb0c-9663-4214-b003-6f6679aa54d6",
+    "question_text": "How many of Taylor Swift's studio albums were included in the rights acquired by Scooter Braun when he purchased Big Machine Records in 2019?",
+    "answer": "The database doesn't answer this. It contains no coverage of Scooter Braun, Big Machine Records, or a 2019 sale, so there is no basis for a count of the studio albums involved.\n\nThe only Taylor Swift material is about her pop-culture presence around the NFL. It covers her appearances at Chiefs games with Travis Kelce and a timeline of her NFL involvement. One piece notes that Kelce's outfit was reportedly labelled the \"1989 bedroom painting set,\" a possible reference to her 2014 album, which she was re-releasing in October (2023).",
+    "method": "stratified-overview",
+    "input_tokens": 42187,
+    "output_tokens": 400
+  },
+  {
+    "question_id": "d5665bc8-05a7-443a-b2a5-76f7d27919e0",
+    "question_text": "What specific lyric change did Taylor Swift make to her song 'Karma' during her November 2023 Eras Tour performance in Buenos Aires?",
+    "answer": "The database doesn't answer this. It contains no coverage of Taylor Swift's Eras Tour, her Buenos Aires shows, or any lyric changes to \"Karma.\"\n\nThe only Taylor Swift material is a timeline of her NFL involvement. It describes her cheering at Chiefs games for Travis Kelce, the couple leaving a stadium together, and fan speculation about references in Kelce's outfit to her 2014 album *1989*, which she was re-releasing in October. It also notes that the reports did not confirm they were dating.",
+    "method": "stratified-overview",
+    "input_tokens": 42187,
+    "output_tokens": 379
+  },
+  {
+    "question_id": "2e3f871b-5c82-4ff2-a294-5d403c0c81ea",
+    "question_text": "Which professional basketball player holds the record for the highest number of Most Valuable Player awards in the history of the National Basketball Association?",
+    "answer": "The database doesn't answer this. None of its material covers NBA MVP award totals or record holders. The closest basketball coverage is a piece on the Golden State Warriors' 8-10 start and their draft struggles. It says Stephen Curry, then 35, \"can still play at an MVP level,\" and notes the team's run to five straight Finals. It also has a guide to NBA betting sites for the 2023-24 season. Nothing in the database identifies who holds the all-time MVP record.",
+    "method": "stratified-overview",
+    "input_tokens": 42179,
+    "output_tokens": 422
+  },
+  {
+    "question_id": "ee19766c-49f1-4dfa-b51f-a3f7085dc00a",
+    "question_text": "In what year did the United States Supreme Court issue the ruling that overturned federal law and allowed individual states to regulate sports betting?",
+    "answer": "The database doesn't say which year the Supreme Court issued that ruling. Its sports betting coverage is limited to a FanDuel Sportsbook promotion in Vermont, with registration before January 10, 2024, and launch day on January 11. An NBA betting guide for the 2023-24 season notes that state-regulated online betting platforms are in place. Those pieces assume legal, state-regulated betting but never mention the court decision or its date.",
+    "method": "stratified-overview",
+    "input_tokens": 42180,
+    "output_tokens": 384
+  },
+  {
+    "question_id": "25d240eb-9fff-405d-bbf8-0a20a72ce45c",
+    "question_text": "Into how many distinct thematic categories is the bestiary book The Monster Overhaul by Skerples divided?",
+    "answer": "The database doesn't cover *The Monster Overhaul* by Skerples, so I can't say how many thematic categories it is divided into. Its tabletop RPG coverage is limited to pieces on *Monsterhearts* and *Mörk Borg*, and nothing there addresses this bestiary.",
+    "method": "stratified-overview",
+    "input_tokens": 42174,
+    "output_tokens": 250
+  },
+  {
+    "question_id": "2d4165a2-abd0-4bf9-a325-e3d011e7d8f1",
+    "question_text": "Which specific online community on the platform Reddit inspired the LARP Eating Oranges in the Shower by Hazel Anneke Dixon?",
+    "answer": "The database doesn't answer this. None of its material mentions a LARP called *Eating Oranges in the Shower*, Hazel Anneke Dixon, or any Reddit community tied to a LARP. The closest items are unrelated: a tabletop RPG roundup covering *Monsterhearts* and *Mörk Borg*, and a *Baldur's Gate 3* Warlock guide. Nothing there bears on the question.",
+    "method": "stratified-overview",
+    "input_tokens": 42185,
+    "output_tokens": 255
+  },
+  {
+    "question_id": "9efdf391-a57e-4bb0-bc79-17f693e64a0a",
+    "question_text": "What are the four criteria represented by the acronym E-E-A-T used in Google's search quality guidelines as of 2023?",
+    "answer": "The material doesn't cover E-E-A-T or the four criteria it stands for. Nothing in the database mentions Google's search quality guidelines by that name.\n\nThe closest related coverage is an investigation into SEO practitioners and the \"spam\" label Google applies to them. In it, Google's Danny Sullivan says Google hadn't changed its search criteria in any major way in about 20 years, and that \"spam\" is \"stuff that search engines don't like.\" The piece also says the line between strategies that violate Google's terms and those that don't is blurry and inconsistently enforced. That article doesn't name any quality criteria.",
+    "method": "stratified-overview",
+    "input_tokens": 42177,
+    "output_tokens": 487
+  },
+  {
+    "question_id": "c65c7888-deff-4b8d-b637-0202afd8f03e",
+    "question_text": "Which former journalist and founder of Search Engine Land was appointed as Google's public liaison for Search in 2017?",
+    "answer": "The database doesn't answer this. It doesn't mention a 2017 appointment as Google's public liaison for Search, or anyone's founding of Search Engine Land.\n\nThe closest material is a feature on SEO practitioners and the \"spam\" label Google applies to them. It refers to a \"Sullivan\" who speaks for Google's position, saying Google \"wanted you to make good websites\" and that rule-breaking tactics would be blocked. The piece gives only that surname, though, and doesn't identify his role, background, or appointment.",
+    "method": "stratified-overview",
+    "input_tokens": 42175,
+    "output_tokens": 568
+  },
+  {
+    "question_id": "5e8cbabc-7291-4a5c-9725-b6ae9a35ae7e",
+    "question_text": "What type of computer components was the company selling when Lars Mapstead first learned about the World Wide Web in 1993?",
+    "answer": "The material doesn't answer this. None of the coverage mentions Lars Mapstead, a company he ran, or his first exposure to the World Wide Web in 1993, so I can't say what computer components he was selling then. The archive is mostly from around 2023 and doesn't reach back to that period for this figure.",
+    "method": "stratified-overview",
+    "input_tokens": 42174,
+    "output_tokens": 195
+  },
+  {
+    "question_id": "5a8a15ee-7689-493a-934c-b96c9dc83222",
+    "question_text": "How many speakers are included in the 15-inch MacBook Air equipped with the M2 chip?",
+    "answer": "The database doesn't say how many speakers the 15-inch MacBook Air with the M2 chip has. The only mention of that model is a passing comparison in the 16-inch M3 Max MacBook Pro review, which gives its display pixel density as 224 ppi. For speaker details, you'd need a source that covers the 15-inch Air itself.",
+    "method": "stratified-overview",
+    "input_tokens": 42169,
+    "output_tokens": 255
+  },
+  {
+    "question_id": "21b407fa-e746-4689-914b-a6ef444e739c",
+    "question_text": "Which specific Apple Bluetooth tracking device is designed to utilize the FindMy network to help users locate lost items?",
+    "answer": "The material I have doesn't identify an Apple Bluetooth tracking device for the Find My network. It doesn't mention AirTag or Find My at all.\n\nThe Apple coverage that does appear is limited to a review of the 16-inch M3 Max MacBook Pro and reporting on the Apple Watch import ban and Apple's effort to change its blood-oxygen algorithm.",
+    "method": "stratified-overview",
+    "input_tokens": 42177,
+    "output_tokens": 396
+  },
+  {
+    "question_id": "c7712af9-1186-414a-82d9-e3c58757265a",
+    "question_text": "On what specific date in November 2022 did Sam Bankman-Fried publicly tweet that FTX was fine and possessed sufficient assets to cover all client holdings?",
+    "answer": "The material doesn't answer this. It contains no record of any tweet by Sam Bankman-Fried in November 2022, and it doesn't say that FTX claimed to have sufficient assets to cover client holdings.\n\nThe FTX coverage that does appear is about the fraud trial. It focuses on testimony about Gary Wang's role as FTX co-founder and chief technology officer, the code behind alleged special privileges for Alameda Research, and the ownership stakes of Wang and Bankman-Fried. For the date you're asking about, you'd need a source covering the November 2022 collapse.",
+    "method": "stratified-overview",
+    "input_tokens": 42193,
+    "output_tokens": 441
+  },
+  {
+    "question_id": "68cec053-a5a0-49bc-be67-14ce173cc5e7",
+    "question_text": "For how many days did professional boxer Anthony Joshua remain in isolation during his darkness retreat in late 2023?",
+    "answer": "The material doesn't answer this. Nothing in the database mentions a darkness retreat by Anthony Joshua or any period of isolation, in late 2023 or otherwise.\n\nThe only Joshua coverage is a preview of his bout with Deontay Wilder, \"Day of Reckoning,\" which includes picks of Wilder by KO in the eighth round and Joshua by unanimous decision over twelve. The database has no account of Joshua's training or personal activities in that period.",
+    "method": "stratified-overview",
+    "input_tokens": 42176,
+    "output_tokens": 374
+  }
+]

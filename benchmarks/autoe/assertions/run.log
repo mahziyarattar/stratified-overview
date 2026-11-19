@@ -1,0 +1,17 @@
+Running multi-RAG assertion scoring
+  Input dir: ../../answers
+  Output dir: output
+  RAG methods: ['stratified-overview', 'top-k-rag', 'kmeans-centroids']
+  Question sets: ['data_global', 'data_local']
+  Top-k assertions: all
+  Trials: 2
+  Significance test: enabled (alpha=0.05, correction=holm)
+Processing question set: data_global
+  Using all assertions (no filtering)
+  Processing stratified-overview for data_global
+[judge progress] 50 done (0 failed) | 3.5% of 1434, ETA 55.5 min | avg 29.3 s/call, 13 in flight
+[judge] first RateLimitError (429): litellm.RateLimitError: RateLimitError: OpenAIException - litellm.RateLimitError: RateLimitError: OpenAIException - rpm admission denied: request rate limit exceeded (rate_limit_id=7298a88d-34db-408d-a4bd-7d0b55f13ea7, limit=30). Received Model Group=pardis/glm-53
+Available Model Group Fallbacks=Non
+[judge progress] 100 done (0 failed) | 7.0% of 1434, ETA 56.6 min | avg 31.9 s/call, 13 in flight | 107 attempts, errors {'RateLimitError (429)': 3}
+[judge progress] 150 done (0 failed) | 10.5% of 1434, ETA 53.9 min | avg 33.5 s/call, 13 in flight | 158 attempts, errors {'RateLimitError (429)': 7}
+[judge progress] 200 done (0 failed) | 13.9% of 1434, ETA 51.6 min | avg 34.2 s/call, 13 in flight | 210 attempts, errors {'RateLimitError (429)': 9}

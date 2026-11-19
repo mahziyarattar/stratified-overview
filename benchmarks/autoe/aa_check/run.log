@@ -1,0 +1,18 @@
+Scoring stratified-overview vs stratified-overview-copy for data_global
+Scoring comprehensiveness... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring diversity...         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring empowerment...       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+Scoring relevance...         ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+/Users/mahziyar/Desktop/Python Projects/stratified-overview/.venv-bench/lib/python3.12/site-packages/scipy/stats/_morestats.py:2199: RuntimeWarning: invalid value encountered in scalar divide
+  return num / den
+/Users/mahziyar/Desktop/Python Projects/stratified-overview/.venv-bench/lib/python3.12/site-packages/scipy/stats/_wilcoxon.py:192: RuntimeWarning: invalid value encountered in scalar divide
+  z = (r_plus - mn) / se
+                            Pairwise Scores Summary                             
+┏━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━┓
+┃ questio… ┃ criteria ┃ base_na… ┃ other_na… ┃ base_me… ┃ other_me… ┃ formatt… ┃
+┡━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━╇━━━━━━━━━━┩
+│ data_gl… │ compreh… │ stratif… │ stratifi… │ 0.5      │ 0.5       │ 1.000    │
+│ data_gl… │ diversi… │ stratif… │ stratifi… │ 0.5      │ 0.5       │ 1.000    │
+│ data_gl… │ empower… │ stratif… │ stratifi… │ 0.5      │ 0.5       │ 1.000    │
+│ data_gl… │ relevan… │ stratif… │ stratifi… │ 0.5      │ 0.5       │ 1.000    │
+└──────────┴──────────┴──────────┴───────────┴──────────┴───────────┴──────────┘
