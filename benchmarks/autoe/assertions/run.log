@@ -25,3 +25,16 @@ question pass rate: 0.632
 [judge progress] 350 done (0 failed) | 24.4% of 1434, ETA 45.7 min | avg 34.2 s/call, 13 in flight | 370 attempts, errors {'RateLimitError (429)': 19}
 [judge progress] 400 done (0 failed) | 27.9% of 1434, ETA 43.6 min | avg 34.4 s/call, 13 in flight | 423 attempts, errors {'RateLimitError (429)': 22}
 [judge progress] 450 done (0 failed) | 31.4% of 1434, ETA 42.1 min | avg 34.5 s/call, 13 in flight | 481 attempts, errors {'RateLimitError (429)': 26}
+[judge progress] 500 done (0 failed) | 34.9% of 1434, ETA 39.7 min | avg 34.6 s/call, 13 in flight | 531 attempts, errors {'RateLimitError (429)': 28}
+[judge progress] 550 done (0 failed) | 38.4% of 1434, ETA 37.4 min | avg 34.7 s/call, 13 in flight | 582 attempts, errors {'RateLimitError (429)': 32}
+Scoring... ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:00
+    top-k-rag (data_global): 21 assertions failed
+    top-k-rag (data_global) - Overall accuracy: 0.856 (125/146), Avg question 
+pass rate: 0.863
+  Processing kmeans-centroids for data_global
+[judge progress] 600 done (0 failed) | 41.8% of 1434, ETA 35.3 min | avg 34.5 s/call, 13 in flight | 635 attempts, errors {'RateLimitError (429)': 35}
+[judge progress] 650 done (0 failed) | 45.3% of 1434, ETA 33.2 min | avg 34.5 s/call, 13 in flight | 688 attempts, errors {'RateLimitError (429)': 38}
+[judge progress] 700 done (0 failed) | 48.8% of 1434, ETA 31.0 min | avg 34.7 s/call, 13 in flight | 740 attempts, errors {'RateLimitError (429)': 40}
+[judge progress] 750 done (0 failed) | 52.3% of 1434, ETA 29.0 min | avg 34.7 s/call, 13 in flight | 794 attempts, errors {'RateLimitError (429)': 44}
+[judge progress] 800 done (0 failed) | 55.8% of 1434, ETA 26.8 min | avg 34.8 s/call, 13 in flight | 847 attempts, errors {'RateLimitError (429)': 47}
+[judge progress] 850 done (0 failed) | 59.3% of 1434, ETA 24.9 min | avg 34.8 s/call, 13 in flight | 906 attempts, errors {'RateLimitError (429)': 52}
