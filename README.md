@@ -62,6 +62,27 @@ What to check in the report:
 - What share of chunks did HDBSCAN label as noise?
 - Does the overview read as a fair summary of the corpus?
 
+## Evaluation
+
+`benchmarks/` compares three ways to give an answering model context on MultiHop-RAG:
+this overview pipeline, a k-means-centroid baseline at the same budget, and top-k
+retrieval. Questions and scoring come from Microsoft
+[BenchmarkQED](https://github.com/microsoft/benchmark-qed) (MIT). AutoQ generated 50
+questions in each of three sets (`data_local`, `data_global`, `activity_global`). AutoE
+scored the answers with an LLM judge: pairwise on comprehensiveness, diversity,
+empowerment, and relevance (4 trials, counterbalanced order), and against assertions for
+`data_global`. The prompts in `benchmarks/*/prompts/` are adapted from BenchmarkQED.
+
+Before trusting the judge, an A/A check (`benchmarks/autoe/aa_check/`) compared the
+overview answers with an identical copy; every criterion came out at 0.5.
+`bounded_judge.py` caps concurrent judge requests so rate limits do not drop calls. The
+judge endpoint and model are read from `JUDGE_API_BASE` and `JUDGE_MODEL`.
+
+Result: top-k retrieval won clearly on every criterion and question set, and on
+assertions (pass rate 0.86 vs 0.63 on `data_global`). Against the k-means baseline the
+overview did better on comprehensiveness and diversity for `activity_global` and worse
+on relevance for `data_local`. Per-question scores are in `benchmarks/autoe/*/output/`.
+
 ## Tests
 
 ```bash
@@ -72,3 +93,7 @@ pytest
 
 MultiHop-RAG (Tang and Yang, 2024) is licensed ODC-By:
 https://huggingface.co/datasets/yixuantt/MultiHopRAG
+
+## License
+
+MIT. See `LICENSE`.

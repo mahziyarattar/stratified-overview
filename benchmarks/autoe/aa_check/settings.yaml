@@ -15,7 +15,7 @@ question_sets:
 trials: 4
 
 llm_config:
-  model: pardis/glm-53
+  model: ${JUDGE_MODEL} # set in .env
   auth_type: api_key
   api_key: ${ZIDEV_API_KEY}
   # bounded.chat = LiteLLM with a hard cap on simultaneous requests
@@ -25,7 +25,7 @@ llm_config:
   # 0 disables BenchmarkQED's start-rate limiter, which never capped open requests.
   concurrent_requests: 0
   init_args:
-    api_base: https://llm.dev.zidev.ir/v1 # OpenAI-compatible endpoint
+    api_base: ${JUDGE_API_BASE} # any OpenAI-compatible endpoint, set in .env
     model_provider: openai # route through LiteLLM's OpenAI-compatible client
   retry:
     type: exponential_backoff
